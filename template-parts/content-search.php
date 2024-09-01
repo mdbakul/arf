@@ -41,7 +41,7 @@ if ( is_single() ) : ?>
 </article>
 <?php else: ?>
 
-
+<!-- start search here -->
  <article id="post-<?php the_ID();?>" <?php post_class( 'tp-postbox-item mb-50 format-standard' );?>>
      <?php if ( has_post_thumbnail() ): ?>
      <div class="tp-postbox-thumb p-relative">
