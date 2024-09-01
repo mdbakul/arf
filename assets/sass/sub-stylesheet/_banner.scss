@@ -1,0 +1,154 @@
+.banner{  
+  @extend %p-rel;      
+  &__content {
+    @extend %p-rel, %hidden; 
+    @include padding(150px 0);
+
+    @include breakpoint(xl){
+      @include padding(200px 0);
+    }
+    h3 {                  
+      @extend %white-color;
+      line-height: 1.2 !important;            
+      @include margin-bottom(15px);
+      @include transform(translateY(-900px));            
+      @include transition(2.5s);
+      @include font-size(50px);
+
+      @include breakpoint(xl){
+        @include font-size(65px);
+      }      
+    }         
+    p {        
+      @extend %white-color;
+      @include transform(translateY(-900px));           
+      @include transition(2.5s);
+    }
+    .bannerbtn {
+      @extend %flex, %align-items-center;
+      @include margin-top(40px);  
+      @include transition(2.5s);             
+      @include transform(translateY(-900px));
+      gap: 15px;
+
+      @include breakpoint(sm) {
+        gap: 30px;
+      }      
+      a { 
+        @extend %text-600; 
+        padding: 0 50px;             
+      }
+    }     
+  }       
+  
+  .swiper-slide-active {
+    .banner__content { 
+      h3 {
+        @include transform(translateY(0px));
+                        
+      }
+      p {
+        @include transform(translateY(0px));
+                      
+      }
+      .bannerbtn {
+        @include transform(translateY(0px));
+                        
+      }
+    }   
+    
+  } 
+
+  &--bannertwo{
+    @extend %bgtransprant-im;
+    &::after{
+      @extend %bgtransprant-im;
+    }
+  }
+}
+
+
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff; 
+    @include add-prefix(border-radius, 50%);  
+    @extend %bgtransprant, %opacity-1;
+}
+
+.swiper-pagination-bullet-active {
+    border: transparent;
+    @extend %bg-theme;
+}
+
+.book{
+  @include margin(80px 0);
+  &__bookingform{    
+    border: 1.8px solid $theme;
+    border-style: dashed;    
+    @include padding(30px 20px);
+    h3{
+      @extend %black-color, %text-center, %mb-20;
+    }
+    >form{
+      @extend %flex;
+      .item1{
+        @extend %mb-20, %w-100; 
+
+        @include breakpoint(lg){
+          width: calc(100% / 2 - 15px);           
+        }
+        
+        &:nth-child(1){
+          @include breakpoint(lg){
+            @include margin-right(30px);          
+          }
+        }         
+
+        &:nth-child(3){
+          @include breakpoint(lg){
+            @include margin-right(30px);
+          }
+        }       
+
+        label{
+          @extend %black-color, %mb-10;
+          font-size: 18px;
+        }
+        input{
+          padding: 12px;
+          @extend %black-color,%bg-white;
+          font-size: 14px;                  
+        }        
+        ::placeholder{
+          @extend %black-color;
+          font-size: 14px;
+          letter-spacing: 1px;
+        }     
+        &:last-child{
+          @extend %mb-0;          
+        }
+        &.item2{
+          select{
+            padding: 10px;
+            @extend %black-color,%bg-white;                      
+            option{
+              @extend %title-color;
+            }
+          
+          }
+        }
+      }
+      button{
+        border: none;
+        margin: auto;       
+        @extend %w-100; 
+
+        @include breakpoint(sm){
+          width: 50%;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,17 @@
+/*!
+Theme Name: arf
+Author:Ayurved Research Foundation 
+Author URI: https://arf.com
+Description: Arf - Banking and Finance WordPress Theme 
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: arf
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.tp-black-bg{
+	background-color: #16243E;
+}
