@@ -38,7 +38,7 @@ if ( is_single() ) : ?>
              <?php arf_blog_social_share() ?>
          </div>
      </div>
- </article>
+</article>
 <?php else: ?>
 
 
@@ -63,5 +63,6 @@ if ( is_single() ) : ?>
          <?php get_template_part( 'template-parts/blog/blog-btn' ); ?>
      </div>
  </article>
-
 <?php endif;?>
+
+<!-- end search here -->
