@@ -68,8 +68,8 @@
                     <ul>
                     <?php if(!empty($header_top_phone)): ?> 
                         <li>
-                            <div class="icon">                                                       
-                                <i class="fa-solid fa-square-phone"></i>                              
+                            <div class="icon">
+                                <i class="fa-solid fa-square-phone"></i>                             
                             </div>
                             <div class="text">
                                 <p><?php echo esc_html($header_top_phone); ?></p>                            
@@ -79,8 +79,8 @@
 
                         <?php if(!empty($header_top_email)): ?> 
                         <li>
-                            <div class="icon">                                                       
-                                <i class="fa-sharp fa-regular fa-envelope-open"></i>                              
+                            <div class="icon">
+                                <i class="fa-regular fa-envelope"></i>                            
                             </div>
                             <div class="text">
                                 <p><?php echo esc_html($header_top_email);?></p>                            
