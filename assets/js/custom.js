@@ -339,6 +339,7 @@ var swiper = new Swiper(".partner__slider", {
 	autoplay: {
 		delay: 5000,
 		disableOnInteraction: false,
+        reverseDirection: true,
 	},
 });
 	
