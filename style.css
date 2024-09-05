@@ -15,3 +15,36 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .tp-black-bg{
 	background-color: #16243E;
 }
+
+
+/*woo */
+.star-rating{
+	position: relative;
+	display: inline-block;
+}
+.star-rating span {
+	position: absolute;
+	top: -4px;
+	left: 0;
+	overflow: hidden;
+	font-size: 0px;
+}
+.star-rating::before {
+	font-family: "Font Awesome 6 Pro";
+	content: "\f005 \f005 \f005 \f005 \f005";
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #d9d9ea;
+	font-size: 11px;
+
+}
+.star-rating span::before {
+	font-family: "Font Awesome 6 Pro";
+	content: "\f005 \f005 \f005 \f005 \f005";
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #ffbf14;
+	font-weight: 900;
+	display: inline-block;
+	font-size: 11px;
+}

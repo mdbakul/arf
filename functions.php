@@ -198,13 +198,14 @@ require_once ARF_THEME_INC . 'add_plugin.php';
 require_once ARF_THEME_INC . '/common/arf-breadcrumb.php';
 require_once ARF_THEME_INC . '/common/arf-scripts.php';
 require_once ARF_THEME_INC . '/common/arf-widgets.php';
-require_once ARF_THEME_INC . '/common/comments-form-list.php';
+// require_once ARF_THEME_INC . '/common/comments-form-list.php';
 if ( function_exists('tpmeta_kick')) {
     require_once ARF_THEME_INC . 'tp-metabox.php';
 }
 
 if ( class_exists( 'WooCommerce' ) ) {
-    require_once ARF_THEME_INC . '/woocommerce/tp-woocommerce.php';
+    require_once ARF_THEME_INC . '/woocommerce/tp_woo.php';
+    // require_once ARF_THEME_INC . '/woocommerce/tp-woocommerce.php';
 }
 
 /**
