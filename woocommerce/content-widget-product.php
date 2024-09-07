@@ -25,19 +25,23 @@ if ( ! is_a( $product, 'WC_Product' ) ) {
 }
 
 ?>
-<li>
-	<?php do_action( 'woocommerce_widget_product_item_start', $args ); ?>
-
-	<a href="<?php echo esc_url( $product->get_permalink() ); ?>">
-		<?php echo $product->get_image(); // PHPCS:Ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-		<span class="product-title"><?php echo wp_kses_post( $product->get_name() ); ?></span>
-	</a>
-
-	<?php if ( ! empty( $show_rating ) ) : ?>
-		<?php echo wc_get_rating_html( $product->get_average_rating() ); // PHPCS:Ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-	<?php endif; ?>
-
-	<?php echo $product->get_price_html(); // PHPCS:Ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-
-	<?php do_action( 'woocommerce_widget_product_item_end', $args ); ?>
-</li>
+<div class="blogsingle__popularpost">	
+	<div class="postitem">
+		<ul>
+			<li class="d-flex">
+				<?php do_action( 'woocommerce_widget_product_item_start', $args ); ?>
+					<div class="thum imghover">			
+						<a href="<?php echo esc_url( $product->get_permalink() ); ?>">
+							<!-- <img src="assets/img/blog-details/img1.jpg" alt="bakul"> -->
+							<?php echo $product->get_image(); // PHPCS:Ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+						</a>
+					</div>
+					<div class="content">
+					    <h5><a href="<?php echo esc_url( $product->get_permalink() ); ?>"><?php echo wp_kses_post( $product->get_name() ); ?></a></h5>
+						<span><?php echo get_the_date() ?></span>
+					</div>
+				<?php do_action( 'woocommerce_widget_product_item_end', $args ); ?>
+			</li>
+		</ul>
+	</div>
+</div>

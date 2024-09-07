@@ -27,12 +27,12 @@ function arf_widgets_init() {
      */
     if(class_exists("TP_Core")) :
     register_sidebar( [
-        'name'          => esc_html__( 'Services Sidebar', 'arf' ),
-        'id'            => 'tp-services-sidebar',
-        'before_widget' => '<div id="%1$s" class="tp-service-widget-item tp-service-widget-tab mb-40 %2$s">',
+        'name'          => esc_html__( 'Shop Sidebar', 'arf' ),
+        'id'            => 'shop_sidebar',
+        'before_widget' => '<div id="%1$s" class="tp-sidebar-widget blogsingle__popularpost blogsingle__catagory blogsingle__alltag %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="tp-service-widget-title">',
-        'after_title'   => '</h3>',
+        'before_title'  => '<h6>',
+        'after_title'   => '</h6>',
     ] );
     endif;
 

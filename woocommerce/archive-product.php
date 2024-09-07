@@ -40,7 +40,6 @@ do_action( 'woocommerce_shop_loop_header' );
 ?>
 
 <div class="col-xl-8">
-
 	<div class="shoppage__header">
 		<nav class="shoppagenav">
 			<h6>Showing 1–9 of 12 results</h6>
@@ -165,127 +164,7 @@ do_action( 'woocommerce_shop_loop_header' );
 
 <div class="col-xl-4">
 	<div class="blogsingle__sidebar">
-		<div class="blogsingle__search">
-			<div class="sideallheading">
-				<h6>Search Your Keywords</h6>
-			</div>
-			<div class="search-area">
-				<input type="text" placeholder="search here">
-				<div class="icon">
-					<i class="fa-solid fa-magnifying-glass"></i>
-				</div>
-			</div>
-		</div>
-		<div class="blogsingle__popularpost">
-			<div class="sideallheading">
-				<h6>Most Popular Post</h6>
-			</div>
-			<div class="postitem">
-				<ul>
-					<li>
-						<div class="thum imghover">
-							<a href="blog-single.html">
-								<img src="assets/img/blog-details/img1.jpg" alt="bakul">
-							</a>
-						</div>
-						<div class="content">
-							<h6><a href="blog-single.html">Consulting Reporting quonk Arei Could More.</a></h6>
-							<span>Jan 25, 2024</span>
-						</div>
-					</li>
-					<li>
-						<div class="thum imghover">
-							<a href="blog-single.html">
-								<img src="assets/img/blog-details/img2.jpg" alt="bakul">
-							</a>
-						</div>
-						<div class="content">
-							<h6><a href="blog-single.html">Find the Right Path for your Group Course online</a></h6>
-							<span>Jan 15, 2024</span>
-						</div>
-					</li>
-					<li>
-						<div class="thum imghover">
-							<a href="blog-single.html">
-								<img src="assets/img/blog-details/img3.jpg" alt="bakul">
-							</a>
-						</div>
-						<div class="content">
-							<h6><a href="blog-single.html">Consulting Reporting quonk Arei Could More.</a></h6>
-							<span>Feb 12, 2024</span>
-						</div>
-					</li>
-					<li>
-						<div class="thum imghover">
-							<a href="blog-single.html">
-								<img src="assets/img/blog-details/img4.jpg" alt="bakul">
-							</a>
-						</div>
-						<div class="content">
-							<h6><a href="blog-single.html">Find the Right Path for your Group Course online</a></h6>
-							<span>Jan 15, 2024</span>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="blogsingle__catagory">
-			<div class="sideallheading">
-				<h6>all Categories</h6>
-			</div>
-			<div class="content">
-				<ul>
-					<li>                                        
-						<h6><a href="#">Allergies</a></h6>
-						<span>02</span>
-					</li>
-					<li>                                        
-						<h6><a href="#">Colds and Flu</a></h6>
-						<span>03</span>
-					</li>
-					<li>                                        
-						<h6><a href="#">Post-Surgical Pain</a></h6>
-						<span>04</span>
-					</li>
-					<li>                                        
-						<h6><a href="#">Kidney Stones</a></h6>
-						<span>05</span>
-					</li>
-					<li>                                        
-						<h6><a href="#">Chronic Lower-Back Pain</a></h6>
-						<span>06</span>
-					</li>
-					<li>                                        
-						<h6><a href="#">Peripheral Neuropathy</a></h6>
-						<span>07</span>
-					</li>
-					<li>                                        
-						<h6><a href="#">Cancer Pain</a></h6>
-						<span>08</span>
-					</li>
-					<li>                                        
-						<h6><a href="#">Postherpetic Neuralgia</a></h6>
-						<span>10</span>
-					</li>
-				</ul>
-			</div>
-		</div> 
-		<div class="blogsingle__alltag">
-			<div class="sideallheading">
-				<h6>Our Popular Tags</h6>
-			</div>
-			<div class="alltaginner">
-				<a href="#">Advices</a>
-				<a href="#">business</a>
-				<a href="#">strategy</a>
-				<a href="#">consulting</a>
-				<a href="#">marketing</a>
-				<a href="#">SEO</a>
-				<a href="#">Advices</a>
-				<a href="#">business</a>
-				<a href="#">strategy</a>
-			</div>
-		</div>
+		<?php dynamic_sidebar('shop_sidebar');?>		
 	</div>
 </div>
 
@@ -302,6 +181,6 @@ do_action( 'woocommerce_after_main_content' );
  *
  * @hooked woocommerce_get_sidebar - 10
  */
-do_action( 'woocommerce_sidebar' );
+// do_action( 'woocommerce_sidebar' );
 
 get_footer( 'shop' );

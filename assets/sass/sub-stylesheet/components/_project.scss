@@ -28,7 +28,8 @@
                 @extend %text-center;            
                 p {
                     @extend %white-color, %text-600;    
-                    margin-bottom: 2px;                    
+                    margin-bottom: 2px; 
+                    width: 50%;                   
                 }
                 h6 a {
                     @extend %white-color, %text-none,                        

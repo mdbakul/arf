@@ -39,7 +39,6 @@ if ( is_single() ) : ?>
 <div class="col-md-6">
     <div class="blog__item">
         <div class="blog__inner blog__inner--innerblogpage">
-
         <?php if ( has_post_thumbnail() ): ?>
             <div class="thumb">                
                 <a href="<?php the_permalink();?>">
