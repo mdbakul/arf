@@ -18,6 +18,17 @@ remove_action('woocommerce_after_shop_loop_item_title','woocommerce_template_loo
 remove_action('woocommerce_after_shop_loop_item','woocommerce_template_loop_product_link_close',5);
 remove_action('woocommerce_after_shop_loop_item','woocommerce_template_loop_add_to_cart',10);
 
+
+//single product
+
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_title',5);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_rating',10);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_price',10);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_excerpt',20);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_add_to_cart',30);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_meta',40);
+remove_action('woocommerce_single_product_summary','woocommerce_template_single_sharing',50);
+
 // compare_false
 add_filter( 'woosq_button_position', '__return_false' );
 
@@ -27,6 +38,37 @@ add_filter( 'woosw_button_position_single', '__return_false' );
 
 add_filter( 'woosc_button_position_archive', '__return_false' );
 add_filter( 'woosc_button_position_single', '__return_false' );
+
+function tp_products_details(){
+        global $product;
+        global $post;
+        global $woocommerce;
+    ?> 
+    <div class="shopdetails__content">
+        <h5><?php the_title(); ?></h5>
+        <h6><?php echo esc_html__("price:","arf"); ?><span><?php echo woocommerce_template_single_price(); ?></span></h6>
+        <div class="rating">
+            <p><?php echo esc_html__('raing','arf');?>:</p>            
+            <?php echo woocommerce_template_single_rating(); ?>
+        </div>
+        <p><?php echo woocommerce_template_single_excerpt(); ?></p>
+        
+        <ul>
+            <li><i class="fa-sharp fa-solid fa-square-check"></i> Digital project planning and resourcing</li>
+            <li><i class="fa-sharp fa-solid fa-square-check"></i> In-House digital consulting</li>
+            <li><i class="fa-sharp fa-solid fa-square-check"></i> Permanent and contract recruitement</li>
+            <li><i class="fa-sharp fa-solid fa-square-check"></i> In-House digital consulting</li>
+        </ul> 
+        <div class="countadd">
+            <?php echo woocommerce_template_single_add_to_cart(); ?>
+        </div>
+        <?php echo woocommerce_template_single_sharing(); ?>
+        <?php echo woocommerce_template_single_meta(); ?>
+    </div>
+    <?php
+}
+
+add_action('woocommerce_single_product_summary','tp_products_details',5);
 
 // product add to cart button
 function biddut_wooc_add_to_cart( $args = array() ) {

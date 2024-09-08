@@ -197,9 +197,10 @@
         h6{
             @include font-size(16px);
             @include margin-top(3px);
-            @extend %black-color;
+            @extend %black-color, %flex, %align-items-center;
             span{
-                @extend %text-500,%text-color;                
+                @extend %text-500,%text-color, %ml-5;  
+                         
             } 
         }
         .rating{
@@ -213,10 +214,16 @@
                     @extend %text-color;  
                     margin-right: 2px;                                      
                 }
+                
             }
             a{
               @extend %ml-5, %text-none;   
               color: #707070;            
+            }
+            .woocommerce-product-rating{
+                span{
+                    top: 0;
+                }
             }
         }
         p{
@@ -236,49 +243,26 @@
             }
         }      
         .countadd {
-            @extend %flex,
-            %align-items-center;                       
-            @include margin-top(40px);
-            gap: 20px;            
-            .cart-plus-minus{
-                @extend %flex, %align-items-center;
-                gap: 10px;               
-                padding: 7px; 
-                border: 1px solid #F2F6F9;
-                input{                    
-                    border: 1px solid #F2F6F9;
-                    @include padding(0);
-                    @extend %wd-40, %hd-40, %line-height-40;
-
-                    &.cart-plus-minus-box{
-                        @extend %text-center;
-                    }
-                }               
-                .qtybutton{
-                   @extend %pointer, %wd-40, %hd-40, %text-center, %line-height-40;                    
-                   border: 1px solid #F2F6F9;
-
-                   &:hover{
-                    @extend %bgtheme, %white-color;
-                   }
-                }
-            }
             form{
-                width: 200px;
-                input{
-                    background: #fafafa;
-                    border: 1px solid #a2a2a24f; 
-                    @include padding(13px); 
+                width: inherit !important;
+                @extend %flex;
+                .quantity{
+                    width: 100px;
+                    input{
+                        border: 1px solid #F1F1F1;
+                        background: none;
+                    }
                 }
-            }
-            a{                
-                @extend %d-block-im;
-                @include breakpoint(xl){
-                    @include padding(0px 142px);
-                    display: inline-block;
+                button{
+                    width: calc(100% - 100px);
+                    border: 1px solid #F1F1F1;
+                    background: none;
+                    padding: 0 50px;
                 }
-                @extend %mt-0-im, %text-center;
-            }            
+            }           
+        }
+        .product_meta{
+            @extend %mt-20;
         }
     }
     &__wrapper{

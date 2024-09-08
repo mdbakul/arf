@@ -48,3 +48,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	display: inline-block;
 	font-size: 11px;
 }
+
+
+ol.flex-control-nav.flex-control-thumbs {
+	display: flex;
+}
+
+ol.flex-control-nav.flex-control-thumbs li{
+	width: 117.4px;	
+}
+
+ol.flex-control-nav.flex-control-thumbs li img{
+
+}
