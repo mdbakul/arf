@@ -243,6 +243,7 @@
             }
         }      
         .countadd {
+            @extend %mt-30;
             form{
                 width: inherit !important;
                 @extend %flex;
@@ -254,11 +255,65 @@
                     }
                 }
                 button{
-                    width: calc(100% - 100px);
-                    border: 1px solid #F1F1F1;
-                    background: none;
+                    width: calc(100% - 100px); 
                     padding: 0 50px;
+                    background: $theme;
+                    @extend %white-color;
                 }
+            &.variations_form.cart{
+                width: 100% !important;
+                flex-direction: column;
+                
+                .single_variation_wrap{
+                    @extend %mt-10;
+                    .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-disabled{
+                        @extend %flex;
+                        .quantity{
+                            width: 100px;
+                        }
+                        button{
+                            width: calc(100% - 100px);
+                        }
+                    }
+                    .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled{
+                        @extend %flex, %mt-10;
+                        .quantity{
+                            width: 100px;
+                        }
+                        .single_add_to_cart_button.button.alt{
+                            width: calc(100% - 100px);
+                        }
+                    }
+                }
+            }
+            .variations{                
+                tbody{     
+                    @extend %flex;               
+                    tr{
+                        @extend %align-items-center,%d-inline-block;
+                        border: 1px solid #F1F1F1;                        
+                        padding: 0 10px; 
+                        @extend %flex;
+                        width: 50%;                        
+                        &:nth-child(2){ 
+                            @extend %flex;
+                            th{
+                                width: 30px;
+                            }                           
+                            td{
+                                @extend %flex, %align-items-center;
+                                width: calc(100% - 30px);
+                                select{
+                                    width: calc(100% - 60px);
+                                }
+                                a{
+                                 width: 60px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             }           
         }
         .product_meta{
@@ -732,3 +787,13 @@
     }
 
 }
+
+.flex-control-nav.flex-control-thumbs{
+    @extend %flex, %mt-10, %align-items-center;
+    gap: 5px;
+    li{
+        @extend %list-none;
+        cursor: pointer;
+    }
+}
+

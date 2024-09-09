@@ -51,8 +51,7 @@ function tp_products_details(){
             <p><?php echo esc_html__('raing','arf');?>:</p>            
             <?php echo woocommerce_template_single_rating(); ?>
         </div>
-        <p><?php echo woocommerce_template_single_excerpt(); ?></p>
-        
+        <p><?php echo woocommerce_template_single_excerpt(); ?></p>        
         <ul>
             <li><i class="fa-sharp fa-solid fa-square-check"></i> Digital project planning and resourcing</li>
             <li><i class="fa-sharp fa-solid fa-square-check"></i> In-House digital consulting</li>
