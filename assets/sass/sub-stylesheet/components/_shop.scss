@@ -381,26 +381,7 @@
             }
         }
     }
-
-    &__header {
-        nav {
-            .nav {
-                @extend %border-none-im;
-                .nav-link {
-                    @extend %border-none-im,
-                    %text-capitalize,
-                    %text-color,
-                    %text-600, %bg-theme;                    
-                    @include padding(15px 50px);
-                    @include border-radius(0px);
-                    &.active {
-                        @extend %bgtheme,
-                        %white-color;
-                    }
-                }
-            }
-        }
-    }
+    
 
     &__content{
         ul{
@@ -426,6 +407,30 @@
         }
     }  
 
+}
+
+.cartdesk__header{
+    ul {        
+        @extend %border-none-im;
+        li {
+            @extend %border-none-im,
+            %text-capitalize,            
+            %text-600, %bg-theme;                    
+            @include padding(15px 50px);
+            @include border-radius(0px);
+            &.active {
+                @extend %bgtheme,
+                %white-color;
+                a{
+                    @extend %white-color;   
+                }
+            }
+            a{
+                @extend %text-none, %text-color,;
+            }
+        }
+        
+    }
 }
 
 .cartpage {    

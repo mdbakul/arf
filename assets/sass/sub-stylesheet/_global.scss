@@ -598,7 +598,7 @@ animation-name: fadeInDown;
 }
 
 .pagi{    
-    @include margin-top(50px);
+    @include margin-top(50px);   
    .pagi-inner{
     @extend %flex, %justify-center;
 
@@ -606,7 +606,8 @@ animation-name: fadeInDown;
         @extend %flex;
         gap:10px;
             li{     
-                @extend %list-none;    
+                @extend %list-none;
+                span,    
                 a{
                      @extend %wd-50, %hd-50, %bg-theme, %d-inline-block, 
                      %line-height-50, %text-color, %text-center, %text-600, %text-capitalize,%text-none;                  
@@ -619,6 +620,7 @@ animation-name: fadeInDown;
                         
                 }
                 &:first-child{
+                    span,
                     a{
                         i{                    
                             @extend %text-color;
@@ -632,6 +634,7 @@ animation-name: fadeInDown;
                     }
                 }
                 &:last-child{
+                    span,
                     a{                
                         i{
                             @extend %text-color;

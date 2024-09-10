@@ -120,7 +120,6 @@ if ( !function_exists( 'arf_setup' ) ):
 
         add_theme_support( 'wc-product-gallery-lightbox' );
         add_theme_support( 'wc-product-gallery-slider' );
-
     }
 endif;
 add_action( 'after_setup_theme', 'arf_setup' );
