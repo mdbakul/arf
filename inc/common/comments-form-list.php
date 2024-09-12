@@ -4,23 +4,28 @@
 // wordpress commnets form  start
 function custom_comment_form_fields($fields) {
     $commenter = wp_get_current_commenter();
-    $req = get_option('require_name_email');    
+    $req = get_option('require_name_email');
 
     $fields = array(
-        'author' => '<div class="alliput">'.'<input type="text" name="author" id="author" placeholder="' . esc_attr__('Name*', 'textdomain') . '" value="' . esc_attr($commenter['comment_author']) . '" ' . ($req ? 'required' : '') . '>',
+        'author' => '<div class="row"><div class="col-xl-6 col-lg-6 col-12 mb-20"><div class="tp-contact-form-input-box">' .
+            '<input type="text" name="author" id="author" placeholder="' . esc_attr__('Name*', 'arf') . '" value="' . esc_attr($commenter['comment_author']) . '" ' . ($req ? 'required' : '') . '></div></div>',
 
-        'email' => '<input type="email" name="email" id="email" placeholder="' . esc_attr__('Email', 'textdomain') . '" value="' . esc_attr($commenter['comment_author_email']) . '" ' . ($req ? 'required' : '') .'>',        
+        'email' => '<div class="col-xl-6 col-lg-6 col-12 mb-20"><div class="tp-contact-form-input-box">' .
+            '<input type="email" name="email" id="email" placeholder="' . esc_attr__('Email', 'arf') . '" value="' . esc_attr($commenter['comment_author_email']) . '" ' . ($req ? 'required' : '') . '></div></div>',
         
-        'subject' => '<input type="subject" name="url" id="url" placeholder="' . esc_attr__('Subject', 'textdomain') . '" value="' . esc_attr($commenter['comment_author_url']) .'">, </div>',
-
+        'url' => '<div class="col-xl-12 col-lg-12 col-12 mb-20"><div class="tp-contact-form-input-box">' .
+            '<input type="text" name="url" id="url" placeholder="' . esc_attr__('Website', 'arf') . '" value="' . esc_attr($commenter['comment_author_url']) . '"></div></div></div>',
     );
+
     return $fields;
 }
 add_filter('comment_form_default_fields', 'custom_comment_form_fields');
 
 // Customize the comment form textarea
 function custom_comment_form_comment($comment_field) {
-    $comment_field = '<textarea rows="6" id="comment" name="comment" placeholder="' . esc_attr__('Your Comment Here...', 'textdomain') . '" required></textarea>';
+    $comment_field = '<div class="row"><div class="col-12 mb-20"><div class="tp-contact-form-input-box">' .
+        '<textarea id="comment" name="comment" placeholder="' . esc_attr__('Your Comment Here...', 'arf') . '" required></textarea></div></div> </div>';
+
     return $comment_field;
 }
 
@@ -43,7 +48,7 @@ add_action('comment_form_fields', 'move_comment_textarea_to_bottom');
 function custom_comment_form_agree($fields) {
     $fields['cookies'] = '<div class="col-xxl-12"><div class="postbox__comment-agree d-flex align-items-start mb-25">' .
         '<input class="e-check-input" type="checkbox" id="e-agree" name="wp-comment-agree" value="1" checked>' .
-        '<label class="e-check-label" for="e-agree">' . esc_html__('Save my name, email, and website in this browser for the next time I comment.', 'textdomain') . '</label></div></div>';
+        '<label class="e-check-label" for="e-agree">' . esc_html__('Save my name, email, and website in this browser for the next time I comment.', 'arf') . '</label></div></div>';
 
     return $fields;
 }
@@ -52,12 +57,17 @@ function custom_comment_form_agree($fields) {
 
 // Customize the submit button
 function custom_comment_form_submit_button($submit_button) {
-    $submit_button = '<button type="submit" class="custom-btn">' . esc_html__('Submit Comment', 'textdomain') . '</button>';
+    $submit_button = '<div class="arf-comments-btn">' .
+        '<button type="submit" class="tp-btn">' . esc_html__('Submit Comment', 'arf') . '</button></div>';
+
     return $submit_button;
 }
 
 add_filter('comment_form_submit_button', 'custom_comment_form_submit_button');
 // comments for end 
+
+
+
 
 // custom_comment_list
 function custom_comment_list($comment, $args, $depth) {
@@ -67,30 +77,33 @@ function custom_comment_list($comment, $args, $depth) {
         // Display pingbacks and trackbacks differently if needed
         ?>
         <li class="pingback">
-            <p><?php esc_html_e('Pingback:', 'biddut'); ?> <?php comment_author_link(); ?></p>
+            <p><?php esc_html_e('Pingback:', 'arf'); ?> <?php comment_author_link(); ?></p>
         </li>
         <?php
     } else {
         // Display regular comments
-        ?>           
-        <li <?php comment_class('comment'); ?> id="comment-<?php comment_ID(); ?>">
-            <div class="img">
-                    <?php echo get_avatar($comment, 150); ?>
+        ?>
+        <li <?php comment_class('comment'); ?> id="comment-<?php comment_ID(); ?>"> 
+             <div class="img">
+              <?php echo get_avatar($comment, 150); ?>
             </div>
             <div class="commentsarea">
                 <div class="name-replaybtn">
-                    <div class="name">                           
-                        <h6><?php comment_author(); ?></h6>                            
-                        <span class="post-meta"><?php comment_date(); ?></span>
+                    <div class="name">
+                        <h6><?php comment_author(); ?></h6>
+                        <span><?php comment_date(); ?></span>
                     </div>
                     <div class="replaybtn">
                         <?php comment_reply_link(array_merge($args, array('depth' => $depth, 'max_depth' => $args['max_depth']))); ?>
-                        <a class="d-none" href="#"><i class="fa-regular fa-arrow-turn-down-left"></i>Reply</a>                                        
+                        <a class="d-none" href="#"><i class="fa-regular fa-arrow-turn-down-left"></i>Reply</a>                        
                     </div>
                 </div>
-                    <?php comment_text(); ?>
-            </div>                                
-    <?php
+                <?php if ($comment->comment_approved == '0') : ?>
+                    <p><?php esc_html_e('Your comment is awaiting moderation.', 'arf'); ?></p>
+                <?php endif; ?>
+                <?php comment_text(); ?>
+            </div>
+        <?php
     }
 }
 

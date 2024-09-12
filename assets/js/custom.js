@@ -348,11 +348,10 @@ var swiper = new Swiper(".product__slider", {
 	spaceBetween: 5,
 	loop: true,
 	freeMode: true,
-	watchSlidesProgress: true,
-	
+	watchSlidesProgress: true,	
 	breakpoints: {
 		1366: {
-			slidesPerView: 5,
+			slidesPerView: 4,
 		},
 		992: {
 			slidesPerView: 3,
@@ -370,9 +369,6 @@ var swiper = new Swiper(".product__slider", {
 	},
 });
 	
-	
-	
-
 // testimonial2 section start here
 var swiper = new Swiper(".testmonial2__slider", {
 	spaceBetween: 0,

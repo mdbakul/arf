@@ -535,7 +535,7 @@
             @extend %mb-30;
         }
         .content {
-            ul {
+            >ul {
                 @extend %flex, %mp-0-im;
                 gap: 40px;
                 @include breakpoint(md){
@@ -617,8 +617,8 @@
                     height: 158px;                   
                     input {                       
                         width: 100%; 
-                        @extend %bgtheme,%black-color;  
-                                                             
+                        @extend %bgtheme,%black-color;
+                              
                         @include breakpoint(lg){
                             width: 48.6%;                        
                         }

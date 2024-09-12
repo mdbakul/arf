@@ -197,7 +197,6 @@ require_once ARF_THEME_INC . 'add_plugin.php';
 require_once ARF_THEME_INC . '/common/arf-breadcrumb.php';
 require_once ARF_THEME_INC . '/common/arf-scripts.php';
 require_once ARF_THEME_INC . '/common/arf-widgets.php';
-// require_once ARF_THEME_INC . '/common/comments-form-list.php';
 if ( function_exists('tpmeta_kick')) {
     require_once ARF_THEME_INC . 'tp-metabox.php';
 }
@@ -255,18 +254,9 @@ if ( !function_exists( 'arf_comment' ) ) {
             </div>
         </div>
     </div>
-
-
-
     <?php
     }
 }
-
-
-
-
-
-
 
 
 /**
