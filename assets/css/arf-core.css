@@ -155,7 +155,7 @@ textarea {
   margin: auto;
 }
 
-.pricing3__inner .content .text ul, .pricing3__inner .content .text, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity, .flex-control-nav.flex-control-thumbs, .cartpage__paymentitem .content form .totall ul li, .cartpage__paymentitem .content form .item label, .cartpage__paymentitem .content form .item, .cartpage__paymentitem .header ul, .cartpage__discountcode, .cartpage__body ul li .countadd .cart-plus-minus, .cartpage__body ul li .countadd, .cartpage__body ul li .product, .cartpage__body ul li, .cartpage__header ul, .cartdesk__text .nametext, .shopdetails__content .countadd form .variations tbody tr:nth-child(2) td, .shopdetails__content .countadd form .variations tbody tr:nth-child(2), .shopdetails__content .countadd form .variations tbody tr, .shopdetails__content .countadd form .variations tbody, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-disabled, .shopdetails__content .countadd form, .shopdetails__content .rating, .shopdetails__content h6, .shoppagenav .nav-tab, .shoppagenav, .shoppage__item .content .allstar, .shoppage__item .thum .shoppagelink, .testmonial__content .profile .star ul, .testmonial__content .profile, .testmonial__item, .testmonial__header, .skill__item .skill-title, .request__form form .allinput, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__leavecoments--addreview .formarea form .reviewbtn, .blogsingle__leavecoments .comment-respond .comment-form .alliput, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn, .blogsingle__comments .content > ul li, .blogsingle__comments .content > ul, .blogsingle__author .author-content .text ul, .blogsingle__author .author-content, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .tagbutton-icon, .blogsingle__content .quode, .blogsingle__content .heading ul, .blogsingle__catagory ul li, .blogsingle__catagory ul, .blogsingle__popularpost--relatedPost .postitem ul, .blogsingle__popularpost .postitem > ul > li, .blogsingle__sidebar, .blog__inner .content .text ul, .feedback__inner .bottom p, .feedback__inner .top .profile, .feedback__inner .top, .feedback__item, .teamprofile__personalcontent .data > ul li .allicon ul, .teamprofile__personalcontent .data > ul li, .teamprofile__personalcontent .data > ul, .portfoliosingle__right ul, .projectfilter__item .inneritem, .projectfilter__header ul, .servicesingle__sidebar .allheading ul li, .counter__content .maincounter, .about__content ul, .footer__photo .allphoto .item .inneritem, .footer__link ul, .footer__about .text .allsocialicon ul, .book__bookingform > form, .banner__content .bannerbtn, .tpoffcanvas__input form .p-relative, .header__cart .cart-details .total, .header__cart .cart-details .item .right, .header__cart .cart-details .item, .header__cart .cart-details, .header__cart, .header__bottom .right, .header__topcontent .right ul, .header__topcontent .left ul li, .header__topcontent .left ul, .header__topcontent, nav > ul, .search__input, .working__content ul li, .working__content ul, .pagi .pagi-inner ul, .pagi .pagi-inner, .nav-pills, .pageheader__content > ul, .newslatter__form form, .newslatter__form {
+.pricing3__inner .content .text ul, .pricing3__inner .content .text, .woocommerce-checkout-review-order, .woocommerce-shipping-fields h3 .woocommerce-form__label, .checkout_coupon, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity, .flex-control-nav.flex-control-thumbs, .cartpage__paymentitem .content form .totall ul li, .cartpage__paymentitem .content form .item label, .cartpage__paymentitem .content form .item, .cartpage__paymentitem .header ul, .cartpage__discountcode, .cartpage__body ul li .countadd .cart-plus-minus, .cartpage__body ul li .countadd, .cartpage__body ul li .product, .cartpage__body ul li, .cartpage__header ul, .cartdesk__text .nametext, .shopdetails__content .countadd form .variations tbody tr:nth-child(2) td, .shopdetails__content .countadd form .variations tbody tr:nth-child(2), .shopdetails__content .countadd form .variations tbody tr, .shopdetails__content .countadd form .variations tbody, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-disabled, .shopdetails__content .countadd form, .shopdetails__content .rating, .shopdetails__content h6, .shoppagenav .nav-tab, .shoppagenav, .shoppage__item .content .allstar, .shoppage__item .thum .shoppagelink, .testmonial__content .profile .star ul, .testmonial__content .profile, .testmonial__item, .testmonial__header, .skill__item .skill-title, .request__form form .allinput, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__leavecoments--addreview .formarea form .reviewbtn, .blogsingle__leavecoments .comment-respond .comment-form .alliput, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn, .blogsingle__comments .content > ul li, .blogsingle__comments .content > ul, .blogsingle__author .author-content .text ul, .blogsingle__author .author-content, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .tagbutton-icon, .blogsingle__content .quode, .blogsingle__content .heading ul, .blogsingle__catagory ul li, .blogsingle__catagory ul, .blogsingle__popularpost--relatedPost .postitem ul, .blogsingle__popularpost .postitem > ul > li, .blogsingle__sidebar, .blog__inner .content .text ul, .feedback__inner .bottom p, .feedback__inner .top .profile, .feedback__inner .top, .feedback__item, .teamprofile__personalcontent .data > ul li .allicon ul, .teamprofile__personalcontent .data > ul li, .teamprofile__personalcontent .data > ul, .portfoliosingle__right ul, .projectfilter__item .inneritem, .projectfilter__header ul, .servicesingle__sidebar .allheading ul li, .counter__content .maincounter, .about__content ul, .footer__photo .allphoto .item .inneritem, .footer__link ul, .footer__about .text .allsocialicon ul, .book__bookingform > form, .banner__content .bannerbtn, .tpoffcanvas__input form .p-relative, .header__cart .cart-details .total, .header__cart .cart-details .item .right, .header__cart .cart-details .item, .header__cart .cart-details, .header__cart, .header__bottom .right, .header__topcontent .right ul, .header__topcontent .left ul li, .header__topcontent .left ul, .header__topcontent, nav > ul, .search__input, .working__content ul li, .working__content ul, .pagi .pagi-inner ul, .pagi .pagi-inner, .nav-pills, .pageheader__content > ul, .newslatter__form form, .newslatter__form {
   display: flex;
   flex-wrap: wrap;
 }
@@ -263,7 +263,7 @@ nav > ul li,
   margin: 0;
 }
 
-.contactus__inner .text ul, .cartpage__paymentitem .header ul, .cartpage__body ul, .cartpage__header ul, .cartdesk__content ul, .shopdetails__content ul, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__comments .content > ul, .blogsingle__author .author-content .text ul, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .heading ul, .blogsingle__catagory ul, .blogsingle__popularpost .postitem > ul, .teamprofile__personalcontent .data > ul li .allicon ul, .teamprofile__personalcontent .data > ul, .team__inner .thumb .allicon ul, .portfoliosingle__right ul, .projectfilter__header ul, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul, .servicesingle__sidebar .allheading ul, .about__content ul, .footer__link ul, .footer__about .text .allsocialicon ul, .header__topcontent .right ul, .header__topcontent .left ul, nav > ul li > ul li, nav > ul li > ul, nav > ul li, nav > ul, .working__content ul, .faqcontent__content ul, .pageheader__content h2 {
+.contactus__inner .text ul, .woocommerce-checkout-review-order .woocommerce-checkout-payment ul, .cartpage__paymentitem .header ul, .cartpage__body ul, .cartpage__header ul, .cartdesk__content ul, .shopdetails__content ul, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__comments .content > ul, .blogsingle__author .author-content .text ul, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .heading ul, .blogsingle__catagory ul, .blogsingle__popularpost .postitem > ul, .teamprofile__personalcontent .data > ul li .allicon ul, .teamprofile__personalcontent .data > ul, .team__inner .thumb .allicon ul, .portfoliosingle__right ul, .projectfilter__header ul, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul, .servicesingle__sidebar .allheading ul, .about__content ul, .footer__link ul, .footer__about .text .allsocialicon ul, .header__topcontent .right ul, .header__topcontent .left ul, nav > ul li > ul li, nav > ul li > ul, nav > ul li, nav > ul, .working__content ul, .faqcontent__content ul, .pageheader__content h2 {
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -328,7 +328,7 @@ a .testmonial .thum, .testmonial a .thum, a .feedback__inner .top .thumb, .feedb
   font-weight: 700 !important;
 }
 
-.cartpage__paymentitem .content form .totall ul li span, .cartpage__paymentitem .content p, .cartpage__paymentitem .header ul li, .cartpage__header ul li, .cartdesk__header ul li, .shopdetails__content .rating p, .shoppage__item .content span, .skill__item .skill-title .right span, .skill__item .skill-title .left, .accordion-item .accordion-button, .blogsingle__content .tagbutton-icon .tagicon ul li:first-child, .blogsingle__content .tagbutton-icon .tagbutton ul li:first-child, .teamprofile__personalcontent .data > ul li span, .projectfilter__header ul li, .project__item .content .content-inner h6 a, .project__item .content .content-inner p, .servicesingle__middle .text h4, .servicesingle__top .text h4, .servicesingle__sidebar .allheading ul li a, .servicesingle__sidebar .allheading ul li, .service__inner .text a, .custom-btn, .banner__content .bannerbtn a, .header__cart .cart-details .total .checkout a, .header__cart .cart-details .item .right .text p, nav > ul li a, .pagi .pagi-inner ul li span,
+.woocommerce-form-coupon-toggle .woocommerce-info a, .cartpage__paymentitem .content form .totall ul li span, .cartpage__paymentitem .content p, .cartpage__paymentitem .header ul li, .cartpage__header ul li, .cartdesk__header ul li, .shopdetails__content .rating p, .shoppage__item .content span, .skill__item .skill-title .right span, .skill__item .skill-title .left, .accordion-item .accordion-button, .blogsingle__content .tagbutton-icon .tagicon ul li:first-child, .blogsingle__content .tagbutton-icon .tagbutton ul li:first-child, .teamprofile__personalcontent .data > ul li span, .projectfilter__header ul li, .project__item .content .content-inner h6 a, .project__item .content .content-inner p, .servicesingle__middle .text h4, .servicesingle__top .text h4, .servicesingle__sidebar .allheading ul li a, .servicesingle__sidebar .allheading ul li, .service__inner .text a, .custom-btn, .banner__content .bannerbtn a, .header__cart .cart-details .total .checkout a, .header__cart .cart-details .item .right .text p, nav > ul li a, .pagi .pagi-inner ul li span,
 .pagi .pagi-inner ul li a, .nav-pills .nav-link, .pageheader__content > ul li.active, .pageheader__content > ul li, .pageheader__content h2, .newslatter__form form button, .section__header span, h1,
 h2,
 h3,
@@ -377,7 +377,7 @@ a h6 {
   justify-content: space-between !important;
 }
 
-.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity, .flex-control-nav.flex-control-thumbs, .cartpage__paymentitem .content form .item, .cartpage__paymentitem .header ul, .cartpage__discountcode, .cartpage__body ul li .countadd .cart-plus-minus, .cartpage__body ul li .countadd, .cartpage__body ul li .product, .cartpage__body ul li, .cartdesk__text .nametext, .shopdetails__content .countadd form .variations tbody tr:nth-child(2) td, .shopdetails__content .countadd form .variations tbody tr, .shopdetails__content .rating, .shopdetails__content h6, .shoppagenav .nav-tab, .shoppagenav, .testmonial__content .profile, .testmonial__item, .skill__item .skill-title, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .tagbutton-icon, .blogsingle__catagory ul li, .blogsingle__catagory ul, .blogsingle__popularpost .postitem > ul > li, .blog__inner .content .text ul, .feedback__inner .top, .teamprofile__personalcontent .data > ul li, .portfoliosingle__right ul, .projectfilter__item .inneritem, .projectfilter__header ul, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li, .counter__content .maincounter, .footer__photo .allphoto .item .inneritem, .banner__content .bannerbtn, .header__cart .cart-details .total, .header__cart .cart-details .item .right, .header__cart .cart-details .item, .header__cart .cart-details, .header__bottom .right, .header__topcontent .right ul, .header__topcontent .left ul li, .header__topcontent .left ul, .header__topcontent, nav > ul, .newslatter__form form {
+.woocommerce-shipping-fields h3 .woocommerce-form__label, .checkout_coupon, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity, .flex-control-nav.flex-control-thumbs, .cartpage__paymentitem .content form .item, .cartpage__paymentitem .header ul, .cartpage__discountcode, .cartpage__body ul li .countadd .cart-plus-minus, .cartpage__body ul li .countadd, .cartpage__body ul li .product, .cartpage__body ul li, .cartdesk__text .nametext, .shopdetails__content .countadd form .variations tbody tr:nth-child(2) td, .shopdetails__content .countadd form .variations tbody tr, .shopdetails__content .rating, .shopdetails__content h6, .shoppagenav .nav-tab, .shoppagenav, .testmonial__content .profile, .testmonial__item, .skill__item .skill-title, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .tagbutton-icon, .blogsingle__catagory ul li, .blogsingle__catagory ul, .blogsingle__popularpost .postitem > ul > li, .blog__inner .content .text ul, .feedback__inner .top, .teamprofile__personalcontent .data > ul li, .portfoliosingle__right ul, .projectfilter__item .inneritem, .projectfilter__header ul, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li, .counter__content .maincounter, .footer__photo .allphoto .item .inneritem, .banner__content .bannerbtn, .header__cart .cart-details .total, .header__cart .cart-details .item .right, .header__cart .cart-details .item, .header__cart .cart-details, .header__bottom .right, .header__topcontent .right ul, .header__topcontent .left ul li, .header__topcontent .left ul, .header__topcontent, nav > ul, .newslatter__form form {
   align-items: center;
 }
 
@@ -454,7 +454,7 @@ nav > ul li > ul li a, nav > ul li a, .newslatter__form form button {
   background-repeat: no-repeat !important;
 }
 
-.wc-block-cart__submit-container a, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity .wc-block-cart-item__remove-link, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-components-product-badge span, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-components-product-badge, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table thead tr th span, .woocommerce-notices-wrapper .woocommerce-message a, .comment-respond form p.form-submit input, .cartpage__body ul li .countadd .cart-plus-minus .qtybutton:hover, .cartdesk__header ul li.active a, .cartdesk__header ul li.active, .shopdetails__content .countadd form button, .shoppagenav .nav-tab .nav-link, .shoppagenav h6, .shoppage__item .thum .shoppagelink button:last-child a .tp-product-tooltip, .shoppage__item .thum .shoppagelink button:last-child a, .testmonial .thum, .accordion-item--itme2Serpage .accordion-button, .accordion-item .accordion-button, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .replaybtn a, .blogsingle__content .tagbutton-icon .tagicon ul li a i, .blogsingle__content .quode .text h6, .blogsingle__alltag .tagcloud a:hover,
+.woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order button, .woocommerce-shipping-fields h3 .woocommerce-form__label span, .woocommerce-shipping-fields h3, .checkout_coupon .form-row-last button, .woocommerce-form-coupon-toggle .woocommerce-info, .wc-block-cart__submit-container a, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity .wc-block-cart-item__remove-link, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-components-product-badge span, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-components-product-badge, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table thead tr th span, .woocommerce-notices-wrapper .woocommerce-message a, .comment-respond form p.form-submit input, .cartpage__body ul li .countadd .cart-plus-minus .qtybutton:hover, .cartdesk__header ul li.active a, .cartdesk__header ul li.active, .shopdetails__content .countadd form button, .shoppagenav .nav-tab .nav-link, .shoppagenav h6, .shoppage__item .thum .shoppagelink button:last-child a .tp-product-tooltip, .shoppage__item .thum .shoppagelink button:last-child a, .testmonial .thum, .accordion-item--itme2Serpage .accordion-button, .accordion-item .accordion-button, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .replaybtn a, .blogsingle__content .tagbutton-icon .tagicon ul li a i, .blogsingle__content .quode .text h6, .blogsingle__alltag .tagcloud a:hover,
 .blogsingle__alltag .alltaginner a:hover, .blog__inner .content .blogbtn a, .feedback__inner .top .thumb, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover i, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover, .team__inner--innerpage2 .text p, .team__inner--innerpage2 .text h6, .team__inner .thumb .allicon ul li a i, .team__inner .thumb .allicon .fixedicon i, .projectfilter__item .inneritem .upitem a:hover i, .projectfilter__header ul li.active, .project__item .content .content-inner h6 a, .project__item .content .content-inner p, .counter__content h6, .counter__content .maincounter span, .counter__content .maincounter h3, .footer__photo .allphoto .item .inneritem .upitem a i, .footer__about .text .allsocialicon ul li a i, .custom-btn, .banner__content p, .banner__content h3, .tpoffcanvas__social .social-icon a i, .tpoffcanvas__input form .p-relative button i, .tpoffcanvas__input form .p-relative input, .tpoffcanvas__close-btn button i, .header__mobilebar button i, .header__cart .cart-details .item .right .text span, .header__cart .cart-details .close i, .header__cart .carticon:after, .header__topcontent .right ul li a i, nav > ul li > ul li:hover > a, nav > ul li > ul li::after, .search__input button i, .search__input input, .pagi .pagi-inner ul li span.current, .pagi .pagi-inner ul li:last-child span:hover i,
 .pagi .pagi-inner ul li:last-child a:hover i, .pagi .pagi-inner ul li:first-child span:hover i,
 .pagi .pagi-inner ul li:first-child a:hover i, .pagi .pagi-inner ul li span:hover,
@@ -476,7 +476,7 @@ textarea {
   background: #fff;
 }
 
-.woocommerce-notices-wrapper .woocommerce-message, .shopdetails__content .rating p, .shopdetails__content h6, .blogsingle__leavecoments .comment-respond .comment-form textarea, .blogsingle__leavecoments .comment-respond .comment-form .alliput ::placeholder, .blogsingle__leavecoments .comment-respond .comment-form .alliput input, .projectfilter__header ul li, .book__bookingform > form .item1.item2 select, .book__bookingform > form .item1 ::placeholder, .book__bookingform > form .item1 input, .book__bookingform > form .item1 label, .book__bookingform h3, .tpoffcanvas__contact-info ul li a, .tpoffcanvas__contact-info ul li i, .header__cart .cart-details .total .checkout a, .header__cart .cart-details .item .right .text h6 a, nav > ul li a {
+.woocommerce-form-coupon-toggle .woocommerce-info a, .woocommerce-notices-wrapper .woocommerce-message, .shopdetails__content .rating p, .shopdetails__content h6, .blogsingle__leavecoments .comment-respond .comment-form textarea, .blogsingle__leavecoments .comment-respond .comment-form .alliput ::placeholder, .blogsingle__leavecoments .comment-respond .comment-form .alliput input, .projectfilter__header ul li, .book__bookingform > form .item1.item2 select, .book__bookingform > form .item1 ::placeholder, .book__bookingform > form .item1 input, .book__bookingform > form .item1 label, .book__bookingform h3, .tpoffcanvas__contact-info ul li a, .tpoffcanvas__contact-info ul li i, .header__cart .cart-details .total .checkout a, .header__cart .cart-details .item .right .text h6 a, nav > ul li a {
   color: #000000;
 }
 
@@ -536,7 +536,7 @@ textarea {
   text-align: left;
 }
 
-.pricing3__inner .content .text ul li, .contactus__inner .text ul li, .flex-control-nav.flex-control-thumbs li, .cartpage__paymentitem .header ul li, .cartpage__body ul li, .cartpage__header ul li, .cartdesk__content ul li, .shopdetails__content ul li, .testmonial__content .profile .star ul li, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul li, .blogsingle__author .author-content .text ul li, .blogsingle__content .tagbutton-icon .tagicon ul li, .blogsingle__content .tagbutton-icon .tagbutton ul li, .blogsingle__content .heading ul li, .blogsingle__catagory ul li, .blogsingle__popularpost .postitem > ul > li, .blog__inner .content .text ul li, .teamprofile__personalcontent .data > ul li .allicon ul li, .teamprofile__personalcontent .data > ul li, .team__inner .thumb .allicon ul li, .portfoliosingle__right ul li, .projectfilter__header ul li, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li, .servicesingle__sidebar .allheading ul li, .about__content ul li, .footer__link ul li, .footer__about .text .allsocialicon ul li, .tpoffcanvas__contact-info ul li, .header__topcontent .right ul li, .header__topcontent .left ul li, nav > ul li, .working__content ul li, .pagi .pagi-inner ul li, .faqcontent__content ul li {
+.pricing3__inner .content .text ul li, .contactus__inner .text ul li, .woocommerce-checkout-review-order .woocommerce-checkout-payment ul li, .flex-control-nav.flex-control-thumbs li, .cartpage__paymentitem .header ul li, .cartpage__body ul li, .cartpage__header ul li, .cartdesk__content ul li, .shopdetails__content ul li, .testmonial__content .profile .star ul li, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul li, .blogsingle__author .author-content .text ul li, .blogsingle__content .tagbutton-icon .tagicon ul li, .blogsingle__content .tagbutton-icon .tagbutton ul li, .blogsingle__content .heading ul li, .blogsingle__catagory ul li, .blogsingle__popularpost .postitem > ul > li, .blog__inner .content .text ul li, .teamprofile__personalcontent .data > ul li .allicon ul li, .teamprofile__personalcontent .data > ul li, .team__inner .thumb .allicon ul li, .portfoliosingle__right ul li, .projectfilter__header ul li, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li, .servicesingle__sidebar .allheading ul li, .about__content ul li, .footer__link ul li, .footer__about .text .allsocialicon ul li, .tpoffcanvas__contact-info ul li, .header__topcontent .right ul li, .header__topcontent .left ul li, nav > ul li, .working__content ul li, .pagi .pagi-inner ul li, .faqcontent__content ul li {
   list-style: none;
 }
 
@@ -545,7 +545,7 @@ textarea {
   margin-block: 0;
 }
 
-.comment-respond form p:last-child, .cartpage__paymentitem .content form .item:last-child, .shoppage__item .content a, .testmonial__content .profile .name h6, .accordion-item .accordion-button, .blogsingle__comments .content > ul li .commentsarea p, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .name h6, .feedback__inner .top .profile .name h6, .teamprofile__Guidelines p, .teamprofile__year p:last-child, .teamprofile__experience p:last-child, .teamprofile__personalcontent .data > ul li p, .portfoliosingle__right ul li p, .servicesingle__middle .text p:last-child, .servicesingle__top .text p:last-child, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li .textinner h6, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li:last-child, .counter__content .maincounter span, .book__bookingform > form .item1:last-child, h1,
+.woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p:last-child, .woocommerce-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p:last-child, .comment-respond form p:last-child, .cartpage__paymentitem .content form .item:last-child, .shoppage__item .content a, .testmonial__content .profile .name h6, .accordion-item .accordion-button, .blogsingle__comments .content > ul li .commentsarea p, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .name h6, .feedback__inner .top .profile .name h6, .teamprofile__Guidelines p, .teamprofile__year p:last-child, .teamprofile__experience p:last-child, .teamprofile__personalcontent .data > ul li p, .portfoliosingle__right ul li p, .servicesingle__middle .text p:last-child, .servicesingle__top .text p:last-child, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li .textinner h6, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li:last-child, .counter__content .maincounter span, .book__bookingform > form .item1:last-child, h1,
 h2,
 h3,
 h4,
@@ -578,7 +578,7 @@ a h6 {
   margin-bottom: 25px;
 }
 
-.flex-control-nav.flex-control-thumbs, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap, .process__inner p, .process__inner h6, .process__header p, .blogsingle__comments .content > ul li .commentsarea p, .feedback__header p, .service__inner .text p, .faqcontent__header p {
+.checkout_coupon p, .flex-control-nav.flex-control-thumbs, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap, .process__inner p, .process__inner h6, .process__header p, .blogsingle__comments .content > ul li .commentsarea p, .feedback__header p, .service__inner .text p, .faqcontent__header p {
   margin-top: 10px;
 }
 
@@ -614,7 +614,11 @@ a h6 {
   margin-top: 15px;
 }
 
-.comment-respond form p, .accordion-item, .blogsingle__content .heading h4, .blogsingle__popularpost .postitem > ul > li, .footer__about .text .allsocialicon h6, .book__bookingform > form .item1, .book__bookingform h3, .sideallheading {
+.woocommerce-additional-fields__field-wrapper, .woocommerce-shipping-fields .shipping_address, .woocommerce-checkout {
+  margin-top: 25px;
+}
+
+.woocommerce-checkout .woocommerce-billing-fields h3, .comment-respond form p, .accordion-item, .blogsingle__content .heading h4, .blogsingle__popularpost .postitem > ul > li, .footer__about .text .allsocialicon h6, .book__bookingform > form .item1, .book__bookingform h3, .sideallheading {
   margin-bottom: 20px;
 }
 
@@ -626,11 +630,15 @@ a h6 {
   margin-top: 20px !important;
 }
 
+.woocommerce-checkout-review-order .woocommerce-checkout-payment ul li label img {
+  margin-left: 20px;
+}
+
 .cartpage__paymentitem .content form .item input {
   margin-right: 20px;
 }
 
-.comment-respond form p:last-child, .cartpage__paymentitem .content form .item:last-child, .shoppage__item .content a, .testmonial__content .profile .name h6, .accordion-item .accordion-button, .blogsingle__comments .content > ul li .commentsarea p, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .name h6, .feedback__inner .top .profile .name h6, .teamprofile__Guidelines p, .teamprofile__year p:last-child, .teamprofile__experience p:last-child, .teamprofile__personalcontent .data > ul li p, .portfoliosingle__right ul li p, .servicesingle__middle .text p:last-child, .servicesingle__top .text p:last-child, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li .textinner h6, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li:last-child, .counter__content .maincounter span, .book__bookingform > form .item1:last-child, h1,
+.woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p:last-child, .woocommerce-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p:last-child, .comment-respond form p:last-child, .cartpage__paymentitem .content form .item:last-child, .shoppage__item .content a, .testmonial__content .profile .name h6, .accordion-item .accordion-button, .blogsingle__comments .content > ul li .commentsarea p, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .name h6, .feedback__inner .top .profile .name h6, .teamprofile__Guidelines p, .teamprofile__year p:last-child, .teamprofile__experience p:last-child, .teamprofile__personalcontent .data > ul li p, .portfoliosingle__right ul li p, .servicesingle__middle .text p:last-child, .servicesingle__top .text p:last-child, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li .textinner h6, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li:last-child, .counter__content .maincounter span, .book__bookingform > form .item1:last-child, h1,
 h2,
 h3,
 h4,
@@ -655,11 +663,11 @@ a h6 {
   margin-bottom: 0px !important;
 }
 
-.comment-respond form p label, .cartdesk__text .nametext .profile h6, .skill__header h3, .working__content ul li, .section__header h3, .section__header span {
+.woocommerce-additional-fields__field-wrapper p label, .woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p label, .woocommerce-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p label, .comment-respond form p label, .cartdesk__text .nametext .profile h6, .skill__header h3, .working__content ul li, .section__header h3, .section__header span {
   margin-bottom: 5px;
 }
 
-.cartdesk__item, .blogsingle__leavecoments h5, .blogsingle__comments h5, .blogsingle__author h5, .about__content p, .newslatter .text h3 {
+.woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p, .woocommerce-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p, .cartdesk__item, .blogsingle__leavecoments h5, .blogsingle__comments h5, .blogsingle__author h5, .about__content p, .newslatter .text h3 {
   margin-bottom: 30px;
 }
 
@@ -690,6 +698,11 @@ a h6 {
 .cartpage__paymentitem .content form .totall {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order .woocommerce-privacy-policy-text, #order_review_heading {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /* @@@@@@@@@@@@@  Extend Property padding 10 - 30 CSS Writing Now  @@@@@@@@@@@@@@ */
@@ -5344,6 +5357,144 @@ nav > ul li > ul li:hover::after {
 }
 .wc-block-components-radio-control__option input::before {
   background: #73B611 !important;
+}
+
+.woocommerce-form-coupon-toggle .woocommerce-info {
+  background: #73B611;
+  padding: 12px 20px;
+}
+.checkout_coupon {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .checkout_coupon {
+    width: 768px;
+  }
+}
+.checkout_coupon p {
+  width: 100%;
+}
+.checkout_coupon .form-row-first {
+  width: 50%;
+}
+.checkout_coupon .form-row-first input {
+  border: 1px solid #73B611;
+}
+.checkout_coupon .form-row-last {
+  width: 50%;
+}
+.checkout_coupon .form-row-last button {
+  border: none;
+  background: #73B611;
+  padding: 15.5px 100px;
+}
+
+.woocommerce-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p label {
+  color: #73B611;
+  font-size: 16px;
+}
+.woocommerce-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p label span {
+  color: red;
+}
+.woocommerce-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p label abbr {
+  color: red;
+}
+.woocommerce-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p input {
+  border: 1px solid #73B611;
+}
+
+.select2-container--default .select2-selection--single {
+  border: 1px solid #73B611 !important;
+  padding: 13px 0 !important;
+  border-radius: 0 !important;
+}
+
+.select2-container .select2-selection--single {
+  height: inherit !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 52px;
+}
+
+.woocommerce-shipping-fields {
+  margin-top: calc(1.625rem + 4.5vw);
+}
+@media (min-width: 1200px) {
+  .woocommerce-shipping-fields {
+    margin-top: 5rem;
+  }
+}
+.woocommerce-shipping-fields h3 {
+  background: #73B611;
+  padding: 12px 20px;
+}
+.woocommerce-shipping-fields h3 .woocommerce-form__label {
+  gap: 10px;
+}
+.woocommerce-shipping-fields h3 .woocommerce-form__label input {
+  width: 10px !important;
+}
+.woocommerce-shipping-fields h3 .woocommerce-form__label span {
+  width: calc(100% - 20px) !important;
+}
+.woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p label {
+  color: #73B611;
+  font-size: 16px;
+}
+.woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p label span {
+  color: red;
+}
+.woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p label abbr {
+  color: red;
+}
+.woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p input {
+  border: 1px solid #73B611;
+}
+
+.woocommerce-additional-fields__field-wrapper p label span {
+  color: red;
+}
+.woocommerce-additional-fields__field-wrapper p span textarea {
+  border: 1px solid #73B611;
+  height: 4rem;
+}
+
+.woocommerce-checkout-review-order {
+  gap: 30px;
+}
+.woocommerce-checkout-review-order .woocommerce-checkout-review-order-table {
+  width: 100%;
+  height: 366px;
+}
+@media (min-width: 576px) {
+  .woocommerce-checkout-review-order .woocommerce-checkout-review-order-table {
+    width: 400px;
+  }
+}
+.woocommerce-checkout-review-order .woocommerce-checkout-payment {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+@media (min-width: 576px) {
+  .woocommerce-checkout-review-order .woocommerce-checkout-payment {
+    width: 600px;
+  }
+}
+.woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order button {
+  padding: 12px 25px;
+  background: #73B611;
+  border: none !important;
+}
+
+.woocommerce-column--shipping-address,
+.woocommerce-column--billing-address {
+  width: 100% !important;
+}
+.woocommerce-column--shipping-address h2,
+.woocommerce-column--billing-address h2 {
+  font-size: 18px;
 }
 
 .contactus__inner {

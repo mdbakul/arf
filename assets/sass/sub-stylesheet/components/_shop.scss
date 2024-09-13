@@ -968,3 +968,213 @@
         }
     }
 }
+
+.woocommerce-notices-wrapper{
+
+}
+
+.woocommerce-form-coupon-toggle{
+    .woocommerce-info{
+        background: $theme;
+        padding: 12px 20px;
+        @extend %white-color;
+        a{
+            @extend %black-color, %text-600;   
+        }
+    }
+}
+
+.checkout_coupon{
+    @extend %flex, %align-items-center;
+    width: 100%;
+    @include breakpoint(lg){
+        width: 768px;
+    }
+    p{
+        @extend %mt-10;
+        width: 100%;
+    }
+    .form-row-first{        
+        width: 50%;
+        input{
+            border: 1px solid #73B611;
+        }
+    }
+    .form-row-last{        
+        width: 50%;
+        button{
+            border: none;
+            background: $theme;
+            padding: 15.5px 100px;
+            @extend %white-color;
+        }
+    }
+}
+
+.woocommerce-checkout{
+    @extend %mt-25;
+    .woocommerce-billing-fields{
+        h3{
+            @extend %mb-20;
+        }
+        .woocommerce-billing-fields__field-wrapper{
+            p{
+                @extend %mb-30;
+
+                &:last-child{
+                    @extend %mb-0;
+                }
+                label{
+                    @extend %mb-5;
+                    color: $theme;
+                    font-size: 16px;
+                    span{
+                        color: red;
+                    }
+                    abbr{
+                        color: red;
+                    }
+                }
+                input{
+                    border: 1px solid #73B611;
+                }                
+            }
+        }
+    }
+}
+
+.select2-container--default .select2-selection--single {   
+    border: 1px solid #73B611 !important;  
+    padding: 13px 0 !important;
+    border-radius: 0 !important;
+}
+
+.select2-container .select2-selection--single {
+    height: inherit !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 52px;    
+}
+
+
+.woocommerce-shipping-fields{
+    @include margin-top(80px);
+    h3{
+        background: $theme;
+        padding: 12px 20px;
+        @extend %white-color;
+        .woocommerce-form__label{
+            @extend %flex, %align-items-center;
+            gap: 10px;
+            input{
+                width: 10px !important;
+            }
+            span{
+                width: calc(100% - 20px) !important;
+                @extend %white-color;
+            }
+        }
+    }
+    .shipping_address{
+        @extend %mt-25;
+        .woocommerce-shipping-fields__field-wrapper{
+            p{
+                @extend %mb-30;
+
+                &:last-child{
+                    @extend %mb-0;
+                }
+                label{
+                    @extend %mb-5;
+                    color: $theme;
+                    font-size: 16px;
+                    span{
+                        color: red;
+                    }
+                    abbr{
+                        color: red;
+                    }
+                }
+                input{
+                    border: 1px solid #73B611;
+                }                
+            }
+        }
+    }
+}
+
+
+.woocommerce-additional-fields__field-wrapper{
+    @extend %mt-25;
+    p{
+        label{
+            @extend %mb-5;
+            span{
+                color: red;                
+            }
+        }
+        span{
+            textarea{
+                border: 1px solid #73B611;
+                height: 4rem;
+            }
+        }
+    }
+}
+#order_review_heading{
+    @extend %my-25;
+}
+
+.woocommerce-checkout-review-order{
+    @extend %flex;
+    gap: 30px;
+    .woocommerce-checkout-review-order-table{
+        width:100%;
+        height: 366px;
+        @include breakpoint(sm){
+            width: 400px;
+        }
+    }
+    .woocommerce-checkout-payment{     
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 15px;
+        @include breakpoint(sm){
+            width: 600px;
+        }
+
+        ul{
+            @extend %mp-0-im;
+            li{
+                @extend %list-none; 
+                label{
+                   
+                    img{
+                        @extend %ml-20;
+                    }
+                }
+            }
+        }
+        .place-order{
+            .woocommerce-privacy-policy-text{
+                @extend %my-25;
+            }
+            button{
+                padding: 12px 25px;
+                background: $theme;
+                @extend %white-color;
+                border: none !important;
+            }
+        }
+    }
+}
+
+.woocommerce-column--shipping-address, 
+.woocommerce-column--billing-address{
+    width: 100% !important;
+
+    h2{
+        font-size: 18px;
+    }
+}
