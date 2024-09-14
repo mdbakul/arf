@@ -789,3 +789,37 @@ animation-name: fadeInDown;
         }
     }
 }
+
+.book{
+    @include padding(100px 0);
+    @extend %m-0-im;
+    &__form{
+        @extend %text-center;
+         span{
+            color: $theme;
+         }
+         h4{
+            @extend %black-color, %my-5;
+         }
+         p{
+            @extend %black-color;
+        }
+        form{
+            @include margin-top(60px);
+            span{
+                select,
+                textarea,                
+                input{
+                    border: 1px solid #73B611;                      
+                }       
+            }
+            .wpcf7-submit{
+                background: $theme;
+                color: #fff;
+            } 
+            .wpcf7-response-output{
+                color: red;
+            }
+        }
+    }
+}
