@@ -790,8 +790,7 @@ animation-name: fadeInDown;
     }
 }
 
-.book{
-    @include padding-bottom(100px);
+.book{    
     @extend %m-0-im;
     &__form{
         @extend %text-center;
