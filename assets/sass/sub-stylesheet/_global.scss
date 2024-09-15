@@ -368,45 +368,47 @@ animation-name: fadeInDown;
             @include padding(0 40px);
         }    
         form {
-            @extend %flex, %align-items-center;
-            max-width: 714px;
-
-            @include breakpoint(max-sm){
-                justify-content: center;                
-            }
-           
-            @include breakpoint(md){
-                width: 714px;
-            }
-            input { 
-
-                @extend %bg-theme,
-                %d-inline-block;
-                @include padding(14.5px 10px);
-                @extend %border-radius-4;
-
-                @include breakpoint(sm){
-                  width: calc(100% - 200px);  
-                  @include border-radius(4px 0 0 4px);   
-                  @include padding(14.5px 20px); 
-
-                }                              
-            }            
-            button { 
-                @extend %border-none;                
-                @extend %bgtheme, %text-uppercase, %white-color, %font-16,%text-600;                
-                @include padding(16px 20px);                
-                @extend %border-radius-4;
-
-                @include breakpoint(sm){                       
-                    @include border-radius(0 4px 4px 0); 
-                    width: 200px;
-                }
-
+            .mc4wp-form-fields{
+                @extend %flex, %align-items-center;
+                max-width: 714px;
+    
                 @include breakpoint(max-sm){
-                    margin-top: 15px;
-                }    
-            }
+                    justify-content: center;                
+                }
+               
+                @include breakpoint(md){
+                    width: 714px;
+                }
+                input { 
+    
+                    @extend %bg-theme,
+                    %d-inline-block;
+                    @include padding(14.5px 10px);
+                    @extend %border-radius-4;
+    
+                    @include breakpoint(sm){
+                      width: calc(100% - 200px);  
+                      @include border-radius(4px 0 0 4px);   
+                      @include padding(14.5px 20px); 
+    
+                    }                              
+                }            
+                button { 
+                    @extend %border-none;                
+                    @extend %bgtheme, %text-uppercase, %white-color, %font-16,%text-600;                
+                    @include padding(16px 20px);                
+                    @extend %border-radius-4;
+    
+                    @include breakpoint(sm){                       
+                        @include border-radius(0 4px 4px 0); 
+                        width: 200px;
+                    }
+    
+                    @include breakpoint(max-sm){
+                        margin-top: 15px;
+                    }    
+                }
+            }            
         }
     }   
     .text{
@@ -719,11 +721,7 @@ animation-name: fadeInDown;
                     i{
                         @extend %mr-5;
                     }
-                }
-                &:last-child{
-                    // border-bottom: none;
-                    // @extend %mb-0, %pb-0;
-                }
+                }                
             }
         }
 

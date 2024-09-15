@@ -105,7 +105,7 @@ textarea {
   font-size: 0.875rem;
 }
 
-.cartpage__paymentitem .content form .totall ul li span, .cartpage__discountcode button, .teamprofile__personalcontent span, .newslatter__form form button {
+.cartpage__paymentitem .content form .totall ul li span, .cartpage__discountcode button, .teamprofile__personalcontent span, .newslatter__form form .mc4wp-form-fields button {
   font-size: 1rem;
 }
 
@@ -151,7 +151,7 @@ textarea {
   margin: auto;
 }
 
-.pricing3__inner .content .text ul, .pricing3__inner .content .text, .woocommerce-checkout-review-order, .woocommerce-shipping-fields h3 .woocommerce-form__label, .checkout_coupon, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity, .flex-control-nav.flex-control-thumbs, .cartpage__paymentitem .content form .totall ul li, .cartpage__paymentitem .content form .item label, .cartpage__paymentitem .content form .item, .cartpage__paymentitem .header ul, .cartpage__discountcode, .cartpage__body ul li .countadd .cart-plus-minus, .cartpage__body ul li .countadd, .cartpage__body ul li .product, .cartpage__body ul li, .cartpage__header ul, .cartdesk__text .nametext, .shopdetails__content .countadd form .variations tbody tr:nth-child(2) td, .shopdetails__content .countadd form .variations tbody tr:nth-child(2), .shopdetails__content .countadd form .variations tbody tr, .shopdetails__content .countadd form .variations tbody, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-disabled, .shopdetails__content .countadd form, .shopdetails__content .rating, .shopdetails__content h6, .shoppagenav .nav-tab, .shoppagenav, .shoppage__item .content .allstar, .shoppage__item .thum .shoppagelink, .testmonial__content .profile .star ul, .testmonial__content .profile, .testmonial__item, .testmonial__header, .skill__item .skill-title, .request__form form .allinput, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__leavecoments--addreview .formarea form .reviewbtn, .blogsingle__leavecoments .comment-respond .comment-form .alliput, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn, .blogsingle__comments .content > ul li, .blogsingle__comments .content > ul, .blogsingle__author .author-content .text ul, .blogsingle__author .author-content, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .tagbutton-icon, .blogsingle__content .quode, .blogsingle__content .heading ul, .blogsingle__catagory ul li, .blogsingle__catagory ul, .blogsingle__popularpost--relatedPost .postitem ul, .blogsingle__popularpost .postitem > ul > li, .blogsingle__sidebar, .blog__inner .content .text ul, .feedback__inner .bottom p, .feedback__inner .top .profile, .feedback__inner .top, .feedback__item, .teamprofile__personalcontent .data > ul li .allicon ul, .teamprofile__personalcontent .data > ul li, .teamprofile__personalcontent .data > ul, .portfoliosingle__right ul, .projectfilter__item .inneritem, .projectfilter__header ul, .servicesingle__sidebar .allheading ul li, .counter__content .maincounter, .about__content ul, .footer__photo .allphoto .item .inneritem, .footer__link ul, .footer__about .text .allsocialicon ul, .banner__content .bannerbtn, .tpoffcanvas__input form .p-relative, .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons, .header__cart .carticon .mini_shopping_cart_box ul li, .header__bottom .right, .header__topcontent .right ul, .header__topcontent .left ul li, .header__topcontent .left ul, .header__topcontent, nav > ul, .search__input, .working__content ul li, .working__content ul, .pagi .pagi-inner ul, .pagi .pagi-inner, .nav-pills, .pageheader__content > ul, .newslatter__form form, .newslatter__form {
+.pricing3__inner .content .text ul, .pricing3__inner .content .text, .woocommerce-checkout-review-order, .woocommerce-shipping-fields h3 .woocommerce-form__label, .checkout_coupon, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity, .flex-control-nav.flex-control-thumbs, .cartpage__paymentitem .content form .totall ul li, .cartpage__paymentitem .content form .item label, .cartpage__paymentitem .content form .item, .cartpage__paymentitem .header ul, .cartpage__discountcode, .cartpage__body ul li .countadd .cart-plus-minus, .cartpage__body ul li .countadd, .cartpage__body ul li .product, .cartpage__body ul li, .cartpage__header ul, .cartdesk__text .nametext, .shopdetails__content .countadd form .variations tbody tr:nth-child(2) td, .shopdetails__content .countadd form .variations tbody tr:nth-child(2), .shopdetails__content .countadd form .variations tbody tr, .shopdetails__content .countadd form .variations tbody, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled, .shopdetails__content .countadd form.variations_form.cart .single_variation_wrap .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-disabled, .shopdetails__content .countadd form, .shopdetails__content .rating, .shopdetails__content h6, .shoppagenav .nav-tab, .shoppagenav, .shoppage__item .content .allstar, .shoppage__item .thum .shoppagelink, .testmonial__content .profile .star ul, .testmonial__content .profile, .testmonial__item, .testmonial__header, .skill__item .skill-title, .request__form form .allinput, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__leavecoments--addreview .formarea form .reviewbtn, .blogsingle__leavecoments .comment-respond .comment-form .alliput, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn, .blogsingle__comments .content > ul li, .blogsingle__comments .content > ul, .blogsingle__author .author-content .text ul, .blogsingle__author .author-content, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .tagbutton-icon, .blogsingle__content .quode, .blogsingle__content .heading ul, .blogsingle__catagory ul li, .blogsingle__catagory ul, .blogsingle__popularpost--relatedPost .postitem ul, .blogsingle__popularpost .postitem > ul > li, .blogsingle__sidebar, .blog__inner .content .text ul, .feedback__inner .bottom p, .feedback__inner .top .profile, .feedback__inner .top, .feedback__item, .teamprofile__personalcontent .data > ul li .allicon ul, .teamprofile__personalcontent .data > ul li, .teamprofile__personalcontent .data > ul, .portfoliosingle__right ul, .projectfilter__item .inneritem, .projectfilter__header ul, .servicesingle__sidebar .allheading ul li, .counter__content .maincounter, .about__content ul, .footer__photo .allphoto .item .inneritem, .footer__link ul, .footer__about .text .allsocialicon ul, .banner__content .bannerbtn, .tpoffcanvas__input form .p-relative, .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons, .header__cart .carticon .mini_shopping_cart_box ul li, .header__bottom .right, .header__topcontent .right ul, .header__topcontent .left ul li, .header__topcontent .left ul, .header__topcontent, nav > ul, .search__input, .working__content ul li, .working__content ul, .pagi .pagi-inner ul, .pagi .pagi-inner, .nav-pills, .pageheader__content > ul, .newslatter__form form .mc4wp-form-fields, .newslatter__form {
   display: flex;
   flex-wrap: wrap;
 }
@@ -324,7 +324,7 @@ a .testmonial .thum, .testmonial a .thum, a .feedback__inner .top .thumb, .feedb
 }
 
 .woocommerce-form-coupon-toggle .woocommerce-info a, .cartpage__paymentitem .content form .totall ul li span, .cartpage__paymentitem .content p, .cartpage__paymentitem .header ul li, .cartpage__header ul li, .cartdesk__header ul li, .shopdetails__content .rating p, .shoppage__item .content span, .skill__item .skill-title .right span, .skill__item .skill-title .left, .accordion-item .accordion-button, .blogsingle__content .tagbutton-icon .tagicon ul li:first-child, .blogsingle__content .tagbutton-icon .tagbutton ul li:first-child, .teamprofile__personalcontent .data > ul li span, .projectfilter__header ul li, .project__item .content .content-inner h6 a, .project__item .content .content-inner p, .servicesingle__middle .text h4, .servicesingle__top .text h4, .servicesingle__sidebar .allheading ul li a, .servicesingle__sidebar .allheading ul li, .service__inner .text a, .custom-btn, .banner__content .bannerbtn a, nav > ul li a, .pagi .pagi-inner ul li span,
-.pagi .pagi-inner ul li a, .nav-pills .nav-link, .pageheader__content > ul li.active, .pageheader__content > ul li, .pageheader__content h2, .newslatter__form form button, .section__header span, h1,
+.pagi .pagi-inner ul li a, .nav-pills .nav-link, .pageheader__content > ul li.active, .pageheader__content > ul li, .pageheader__content h2, .newslatter__form form .mc4wp-form-fields button, .section__header span, h1,
 h2,
 h3,
 h4,
@@ -372,7 +372,7 @@ a h6 {
   justify-content: space-between !important;
 }
 
-.woocommerce-shipping-fields h3 .woocommerce-form__label, .checkout_coupon, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity, .flex-control-nav.flex-control-thumbs, .cartpage__paymentitem .content form .item, .cartpage__paymentitem .header ul, .cartpage__discountcode, .cartpage__body ul li .countadd .cart-plus-minus, .cartpage__body ul li .countadd, .cartpage__body ul li .product, .cartpage__body ul li, .cartdesk__text .nametext, .shopdetails__content .countadd form .variations tbody tr:nth-child(2) td, .shopdetails__content .countadd form .variations tbody tr, .shopdetails__content .rating, .shopdetails__content h6, .shoppagenav .nav-tab, .shoppagenav, .testmonial__content .profile, .testmonial__item, .skill__item .skill-title, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .tagbutton-icon, .blogsingle__catagory ul li, .blogsingle__catagory ul, .blogsingle__popularpost .postitem > ul > li, .blog__inner .content .text ul, .feedback__inner .top, .teamprofile__personalcontent .data > ul li, .portfoliosingle__right ul, .projectfilter__item .inneritem, .projectfilter__header ul, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li, .counter__content .maincounter, .footer__photo .allphoto .item .inneritem, .banner__content .bannerbtn, .header__cart .carticon .mini_shopping_cart_box ul li, .header__bottom .right, .header__topcontent .right ul, .header__topcontent .left ul li, .header__topcontent .left ul, .header__topcontent, nav > ul, .newslatter__form form {
+.woocommerce-shipping-fields h3 .woocommerce-form__label, .checkout_coupon, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity, .flex-control-nav.flex-control-thumbs, .cartpage__paymentitem .content form .item, .cartpage__paymentitem .header ul, .cartpage__discountcode, .cartpage__body ul li .countadd .cart-plus-minus, .cartpage__body ul li .countadd, .cartpage__body ul li .product, .cartpage__body ul li, .cartdesk__text .nametext, .shopdetails__content .countadd form .variations tbody tr:nth-child(2) td, .shopdetails__content .countadd form .variations tbody tr, .shopdetails__content .rating, .shopdetails__content h6, .shoppagenav .nav-tab, .shoppagenav, .testmonial__content .profile, .testmonial__item, .skill__item .skill-title, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview ul, .blogsingle__content .tagbutton-icon .tagicon ul, .blogsingle__content .tagbutton-icon .tagbutton ul, .blogsingle__content .tagbutton-icon, .blogsingle__catagory ul li, .blogsingle__catagory ul, .blogsingle__popularpost .postitem > ul > li, .blog__inner .content .text ul, .feedback__inner .top, .teamprofile__personalcontent .data > ul li, .portfoliosingle__right ul, .projectfilter__item .inneritem, .projectfilter__header ul, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li, .counter__content .maincounter, .footer__photo .allphoto .item .inneritem, .banner__content .bannerbtn, .header__cart .carticon .mini_shopping_cart_box ul li, .header__bottom .right, .header__topcontent .right ul, .header__topcontent .left ul li, .header__topcontent .left ul, .header__topcontent, nav > ul, .newslatter__form form .mc4wp-form-fields {
   align-items: center;
 }
 
@@ -400,12 +400,12 @@ a h6 {
 
 .cartpage__body ul li .countadd a, .cartdesk__text .nametext .allstar .star i, .shopdetails__content .countadd form .variations tbody tr, .shoppage__item .content span, .shoppage__item .thum .shoppagelink button, .process__item .base, .blogsingle__leavecoments--addreview .formarea form .reviewbtn .allreview, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .name span, .blogsingle__author .author-content .text span, .blogsingle__content .tagbutton-icon .tagicon ul li a, .blogsingle__alltag .tagcloud a,
 .blogsingle__alltag .alltaginner a, .blogsingle__popularpost--popularpostshoppage .postitem ul li .content a, .blogsingle__popularpost--relatedPost .postitem ul li .content span, .blogsingle__popularpost .postitem > ul > li .content span, .teamprofile__personalcontent .data > ul li span, .teamprofile__personalcontent span, .team__inner .thumb .allicon ul li a, .projectfilter__btn a, .projectfilter__item .inneritem .upitem a, .project__btn a, .servicesingle__sidebar .brouchore.brouchoreneedhelp .text ul li .textinner span, .servicesingle__sidebar .brouchore .text a, .service2__item .text h6 a, .service__inner .text a, .about__content a, .footer__photo .allphoto .item .inneritem .upitem a, .footer__about .text .allsocialicon ul li a, .custom-btn, .tpoffcanvas__social .social-icon a, .header__topcontent .right ul li a, nav > ul li > ul li::after, .pagi .pagi-inner ul li span,
-.pagi .pagi-inner ul li a, .newslatter__form form input, .plybtn a {
+.pagi .pagi-inner ul li a, .newslatter__form form .mc4wp-form-fields input, .plybtn a {
   display: inline-block;
 }
 
 /* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
-.cartpage__paymentitem .content form .update button, .cartpage__discountcode button, .request__form form button, .blogsingle__leavecoments .comment-respond .comment-form button, .blogsingle__popularpost:last-child, .tpoffcanvas__input form .p-relative button, .tpoffcanvas__close-btn button, .header__searchicon button, .header__mobilebar button, .header__topcontent--topcontentpage2 .left ul li:nth-child(2), nav > ul li > ul li:last-child, .search__input button i, .search__input button, .search__input input, .search__close button, .newslatter__form form button {
+.cartpage__paymentitem .content form .update button, .cartpage__discountcode button, .request__form form button, .blogsingle__leavecoments .comment-respond .comment-form button, .blogsingle__popularpost:last-child, .tpoffcanvas__input form .p-relative button, .tpoffcanvas__close-btn button, .header__searchicon button, .header__mobilebar button, .header__topcontent--topcontentpage2 .left ul li:nth-child(2), nav > ul li > ul li:last-child, .search__input button i, .search__input button, .search__input input, .search__close button, .newslatter__form form .mc4wp-form-fields button {
   border: none;
 }
 
@@ -436,7 +436,7 @@ a h6 {
   text-transform: capitalize;
 }
 
-nav > ul li > ul li a, nav > ul li a, .newslatter__form form button {
+nav > ul li > ul li a, nav > ul li a, .newslatter__form form .mc4wp-form-fields button {
   text-transform: uppercase;
 }
 
@@ -453,7 +453,7 @@ nav > ul li > ul li a, nav > ul li a, .newslatter__form form button {
 .blogsingle__alltag .alltaginner a:hover, .blog__inner .content .blogbtn a, .feedback__inner .top .thumb, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover i, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover, .team__inner--innerpage2 .text p, .team__inner--innerpage2 .text h6, .team__inner .thumb .allicon ul li a i, .team__inner .thumb .allicon .fixedicon i, .projectfilter__item .inneritem .upitem a:hover i, .projectfilter__header ul li.active, .project__item .content .content-inner h6 a, .project__item .content .content-inner p, .counter__content h6, .counter__content .maincounter span, .counter__content .maincounter h3, .footer__photo .allphoto .item .inneritem .upitem a i, .footer__about .text .allsocialicon ul li a i, .custom-btn, .banner__content p, .banner__content h3, .tpoffcanvas__social .social-icon a i, .tpoffcanvas__input form .p-relative button i, .tpoffcanvas__input form .p-relative input, .tpoffcanvas__close-btn button i, .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons a, .header__cart .carticon .mini_shopping_cart_box ul li .tp-mini-cart-del a, .header__cart .carticon > a span, .header__mobilebar button i, .header__topcontent .right ul li a i, .header__topcontent .left ul li .text a, nav > ul li > ul li:hover > a, nav > ul li > ul li::after, .search__input button i, .search__input input, .pagi .pagi-inner ul li span.current, .pagi .pagi-inner ul li:last-child span:hover i,
 .pagi .pagi-inner ul li:last-child a:hover i, .pagi .pagi-inner ul li:first-child span:hover i,
 .pagi .pagi-inner ul li:first-child a:hover i, .pagi .pagi-inner ul li span:hover,
-.pagi .pagi-inner ul li a:hover, .pageheader__content > ul li a, .pageheader__content h2, .newslatter .text h3, .newslatter__form form button, .plybtn a i, .swiper-button-next:after,
+.pagi .pagi-inner ul li a:hover, .pageheader__content > ul li a, .pageheader__content h2, .newslatter .text h3, .newslatter__form form .mc4wp-form-fields button, .plybtn a i, .swiper-button-next:after,
 .swiper-button-prev:after {
   color: #fff;
 }
@@ -508,13 +508,13 @@ textarea {
 }
 
 .cartdesk__header ul li, .testmonial__item, .accordion-item--itme2Serpage .accordion-body, .accordion-item .accordion-button:not(.collapsed), .accordion-item .accordion-button .plus-icon:before, .accordion-item .accordion-button .plus-icon:after, .process__item .base, .process__inner, .blogsingle__search .search-area form input, .servicesingle__sidebar .brouchore .pdf-icon, .servicesingle__sidebar .allheading ul li, .service--historypage, .swiper-pagination-bullet-active, .pagi .pagi-inner ul li span,
-.pagi .pagi-inner ul li a, .newslatter__form form input, .plybtn a:after, .plybtn a:before, .fourzero__content form input, body {
+.pagi .pagi-inner ul li a, .newslatter__form form .mc4wp-form-fields input, .plybtn a:after, .plybtn a:before, .fourzero__content form input, body {
   background: #F8F5F0;
 }
 
 .cartpage__body ul li .countadd .cart-plus-minus .qtybutton:hover, .cartdesk__header ul li.active, .shoppagenav, .shoppage__item .thum:after, .testmonial .thum .quode, .accordion-item--itme2Serpage .accordion-button:not(.collapsed), .accordion-item--itme2Serpage .accordion-button .plus-icon:before, .accordion-item--itme2Serpage .accordion-button .plus-icon:after, .accordion-item .accordion-button .plus-icon:active, .accordion-item .accordion-button, .blogsingle__leavecoments .comment-respond .comment-form textarea, .blogsingle__leavecoments .comment-respond .comment-form .alliput input, .blogsingle__alltag .tagcloud a:hover,
 .blogsingle__alltag .alltaginner a:hover, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover, .team__inner .thumb .allicon .fixedicon:hover i, .projectfilter__header ul li.active, .service2__item .thumb .icon, .footer__photo .allphoto .item .inneritem .upitem a, .footer__about .text .allsocialicon ul li a, .custom-btn, .header__topcontent--topcontentpage2 .right ul li a:hover, .header__topcontent .right ul li a:hover, .menu-item-has-children > a::before, .menu-item-has-children > a::after, nav > ul li > ul li:hover > a, nav > ul li > ul li a.active, .pagi .pagi-inner ul li span.current, .pagi .pagi-inner ul li span:hover,
-.pagi .pagi-inner ul li a:hover, .nav-pills .nav-link.active, .newslatter__form form button, .plybtn a {
+.pagi .pagi-inner ul li a:hover, .nav-pills .nav-link.active, .newslatter__form form .mc4wp-form-fields button, .plybtn a {
   background: #73B611;
 }
 
@@ -919,7 +919,7 @@ nav > ul li:last-child a {
 }
 
 .pricing3__inner .thumb .pricebtn, .pricing3__inner, .cartpage__item, .shoppage__item, .testmonial__item, .skill__item .skillbar-container, .request__form form textarea, .request__form form .allinput input, .accordion-item .accordion-button .plus-icon, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .replaybtn a, .blogsingle__content .tagbutton-icon .tagbutton ul li a, .blogsingle__content .quode, .blogsingle__alltag .tagcloud a,
-.blogsingle__alltag .alltaginner a, .blogsingle__alltag, .blogsingle__catagory, .blogsingle__search .search-area form input, .blog__inner, .team__inner .thumb .allicon ul li a, .team__inner .thumb .allicon .fixedicon i, .portfoliosingle__thumb, .projectfilter__item, .projectfilter__header ul li, .project__item .thum, .servicesingle__sidebar .brouchore.brouchoreneedhelp .thumb img, .servicesingle__sidebar .brouchore.brouchoreneedhelp .thumb, .servicesingle__sidebar .brouchore .pdf-icon, .servicesingle__sidebar .brouchore, .servicesingle__sidebar .allheading, .service2__item, .nav-pills .nav-link, .mission__inner .thumb, .mission__inner, .newslatter__form form button, .newslatter__form form input, .fourzero__content form input {
+.blogsingle__alltag .alltaginner a, .blogsingle__alltag, .blogsingle__catagory, .blogsingle__search .search-area form input, .blog__inner, .team__inner .thumb .allicon ul li a, .team__inner .thumb .allicon .fixedicon i, .portfoliosingle__thumb, .projectfilter__item, .projectfilter__header ul li, .project__item .thum, .servicesingle__sidebar .brouchore.brouchoreneedhelp .thumb img, .servicesingle__sidebar .brouchore.brouchoreneedhelp .thumb, .servicesingle__sidebar .brouchore .pdf-icon, .servicesingle__sidebar .brouchore, .servicesingle__sidebar .allheading, .service2__item, .nav-pills .nav-link, .mission__inner .thumb, .mission__inner, .newslatter__form form .mc4wp-form-fields button, .newslatter__form form .mc4wp-form-fields input, .fourzero__content form input {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -1490,24 +1490,24 @@ input, textarea, select {
     padding: 0 2.5rem;
   }
 }
-.newslatter__form form {
+.newslatter__form form .mc4wp-form-fields {
   max-width: 714px;
 }
 @media (max-width: 575px) {
-  .newslatter__form form {
+  .newslatter__form form .mc4wp-form-fields {
     justify-content: center;
   }
 }
 @media (min-width: 768px) {
-  .newslatter__form form {
+  .newslatter__form form .mc4wp-form-fields {
     width: 714px;
   }
 }
-.newslatter__form form input {
+.newslatter__form form .mc4wp-form-fields input {
   padding: 0.90625rem 0.625rem;
 }
 @media (min-width: 576px) {
-  .newslatter__form form input {
+  .newslatter__form form .mc4wp-form-fields input {
     width: calc(100% - 200px);
     -webkit-border-radius: 4px 0 0 4px;
     -moz-border-radius: 4px 0 0 4px;
@@ -1515,11 +1515,11 @@ input, textarea, select {
     padding: 0.90625rem 1.25rem;
   }
 }
-.newslatter__form form button {
+.newslatter__form form .mc4wp-form-fields button {
   padding: 1rem 1.25rem;
 }
 @media (min-width: 576px) {
-  .newslatter__form form button {
+  .newslatter__form form .mc4wp-form-fields button {
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
     border-radius: 0 4px 4px 0;
@@ -1527,7 +1527,7 @@ input, textarea, select {
   }
 }
 @media (max-width: 575px) {
-  .newslatter__form form button {
+  .newslatter__form form .mc4wp-form-fields button {
     margin-top: 15px;
   }
 }
