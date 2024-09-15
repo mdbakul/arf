@@ -603,7 +603,6 @@ animation-name: fadeInDown;
     @include margin-top(50px);   
    .pagi-inner{
     @extend %flex, %justify-center;
-
         ul{
         @extend %flex;
         gap:10px;
@@ -612,7 +611,7 @@ animation-name: fadeInDown;
                 span,    
                 a{
                      @extend %wd-50, %hd-50, %bg-theme, %d-inline-block, 
-                     %line-height-50, %text-color, %text-center, %text-600, %text-capitalize,%text-none;                  
+                     %line-height-50, %text-color, %text-center, %text-600, %text-capitalize,%text-none,%mp-0-im;                  
                      border-radius: 25px;
                     
                     &:hover{                
