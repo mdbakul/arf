@@ -35,40 +35,7 @@
                     @include border-radius(15px);
                     span{
                         color: #70717B;
-                    }  
-                    
-                    &:last-child{
-                        position: relative;
-                        a{   
-                            opacity: 0;
-                             position: absolute;
-                            top: 38px;
-                            right: -44px;
-                            width: 120px;                                
-                            @extend %white-color, %d-inline-block, %bg-white;
-                            color: #000;
-                            font-size: 12px;
-                            transition: 1.2s;                             
-                            .tp-product-tooltip{
-                                opacity: 0;                                
-                                top: 38px;
-                                right: -44px;
-                                width: 120px;                                
-                                @extend %white-color, %d-inline-block, %bg-white;
-                                color: #000;
-                                font-size: 12px;
-                                transition: 1.2s;
-                            }
-                        }
-                        &:hover{
-                            a{   
-                                opacity: 1;                             
-                                .tp-product-tooltip{
-                                    opacity: 1;
-                                }
-                            }
-                        }
-                    }
+                    } 
                 }
             }
             &:after{
@@ -920,7 +887,6 @@
     }
 }
 
-
 .wc-block-components-sidebar{    
     border: 1px solid #F1F1F1;
     @extend %pl-0-im;
@@ -967,10 +933,6 @@
             background: $theme !important;            
         }
     }
-}
-
-.woocommerce-notices-wrapper{
-
 }
 
 .woocommerce-form-coupon-toggle{
@@ -1177,4 +1139,8 @@
     h2{
         font-size: 18px;
     }
+}
+
+.added_to_cart{
+    display: none !important;
 }

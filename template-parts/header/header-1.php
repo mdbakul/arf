@@ -60,7 +60,6 @@
 
  <!-- start header section here -->
  <div class="header header--headerpage3">
-
     <div class="header__top header__top--toppage2 header__top--toppage3">
         <div class="container-xl container-fluid">
             <div class="header__topcontent header__topcontent--topcontentpage2">
@@ -108,7 +107,6 @@
             </div>
         </div>
     </div>
-
     <div class="header__bottom header__bottom--bottompage3 bg-white">
         <div class="container-xl container-fluid">
             <div class="row align-items-center">
@@ -131,53 +129,16 @@
                                 </nav>
                             </div>                                
                         </div> 
-                        <div class="header__cart">                            
-                            <div class="carticon">
-                            <a href="#"><i class="fa-light fa-basket-shopping"></i></a>
-                            </div>
-                            <div class="cart-details">
-                                <div class="close d-sm-none d-block">
-                                    <i class="fa-sharp fa-solid fa-square-xmark"></i>
+                        <div class="header__cart">  
+                             <?php if ( class_exists( 'WooCommerce' ) ) : ?>                          
+                                <div class="carticon">
+                                    <a href="<?php echo wc_get_cart_url(); ?>">
+                                        <i class="fa-light fa-basket-shopping"></i>
+                                        <span id="tp-cart-item" class="cart__count"><?php echo esc_html(WC()->cart->cart_contents_count); ?></span>
+                                    </a>
+                                    <div class="mini_shopping_cart_box"><?php woocommerce_mini_cart(); ?></div>
                                 </div>
-                                <div class="item">
-                                    <div class="thumb">
-                                        <img src="assets/img/cart/img1.jpg" alt="img">
-                                    </div>
-                                    <div class="right">
-                                        <div class="text">
-                                            <h6><a href="#">Product title here</a></h6>
-                                            <p>$20.00</p>
-                                            <span>In Stock</span>
-                                        </div>
-                                        <div class="cros">
-                                            <i class="fa-sharp fa-solid fa-square-xmark"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="thumb">
-                                        <img src="assets/img/cart/img2.png" alt="img">
-                                    </div>
-                                    <div class="right">
-                                        <div class="text">
-                                            <h6><a href="#">Product title here</a></h6>
-                                            <p>$20.00</p>
-                                            <span>In Stock</span>
-                                        </div>
-                                        <div class="cros">
-                                            <i class="fa-sharp fa-solid fa-square-xmark"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="total">
-                                    <div class="subtotal">
-                                        <p>Subtotal :<span> $40.00</span></p>
-                                    </div>
-                                    <div class="checkout">
-                                        <a href="#">Checkout</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php endif; ?>                            
                         </div>
                         <div class="header__searchicon d-xl-block d-none">
                             <button class="search-open-btn"><i class="fa-regular fa-magnifying-glass"></i></button>
@@ -189,8 +150,7 @@
                 </div>                    
             </div>
         </div>
-    </div>
-    
+    </div>    
 </div>  
  <!--  header section here -->
 

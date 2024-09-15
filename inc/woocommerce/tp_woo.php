@@ -39,6 +39,36 @@ add_filter( 'woosw_button_position_single', '__return_false' );
 add_filter( 'woosc_button_position_archive', '__return_false' );
 add_filter( 'woosc_button_position_single', '__return_false' );
 
+
+// woocommerce mini cart content
+add_filter('woocommerce_add_to_cart_fragments', function ($fragments) {
+    ob_start();
+    ?>
+    <div class="mini_shopping_cart_box">
+        <?php woocommerce_mini_cart(); ?>
+    </div>
+    <?php $fragments['.mini_shopping_cart_box'] = ob_get_clean();
+    return $fragments;
+ });
+ 
+ // woocommerce mini cart count icon
+ if ( ! function_exists( 'sectox_header_add_to_cart_fragment' ) ) {
+    function sectox_header_add_to_cart_fragment( $fragments ) {
+        ob_start();
+        ?>
+        <span class="cart__count" id="tp-cart-item">
+            <?php echo esc_html( WC()->cart->cart_contents_count ); ?>
+        </span>
+        <?php
+        $fragments['#tp-cart-item'] = ob_get_clean();
+ 
+        return $fragments;
+    }
+ }
+ add_filter( 'woocommerce_add_to_cart_fragments', 'sectox_header_add_to_cart_fragment' );
+
+
+
 function tp_products_details(){
         global $product;
         global $post;
@@ -128,7 +158,7 @@ function biddut_wooc_add_to_cart( $args = array() ) {
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9701 15.0212C14.2259 15.0212 14.4333 15.2278 14.4333 15.4836C14.4333 15.7395 14.2259 15.9469 13.9701 15.9469C13.7134 15.9469 13.5068 15.7395 13.5068 15.4836C13.5068 15.2278 13.7134 15.0212 13.9701 15.0212Z" fill="currentColor"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9692 15.3092C13.874 15.3092 13.7958 15.3874 13.7958 15.4835C13.7966 15.6781 14.1451 15.6764 14.1443 15.4835C14.1443 15.3874 14.0652 15.3092 13.9692 15.3092ZM13.969 16.5815C13.3621 16.5815 12.8691 16.0884 12.8691 15.4826C12.8691 14.8767 13.3621 14.3845 13.969 14.3845C14.5768 14.3845 15.0706 14.8767 15.0706 15.4826C15.0706 16.0884 14.5768 16.5815 13.969 16.5815Z" fill="currentColor"/>
                     </svg> 
-                     <span class="tp-product-tooltip tp-product-tooltip-right">'.$btntext.'</span>'
+                    '
         );
 }
 
