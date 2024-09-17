@@ -5459,6 +5459,13 @@ nav > ul li > ul li:hover::after {
   display: none !important;
 }
 
+.footer #woocommerce_products-3 ul li .content h5 {
+  font-size: 14px;
+}
+.footer #woocommerce_products-3 ul li .content h5 a {
+  color: #ddd;
+}
+
 .contactus__inner {
   padding: calc(1.375rem + 1.5vw) 1.25rem;
   border: 1px solid #F8F5F0;

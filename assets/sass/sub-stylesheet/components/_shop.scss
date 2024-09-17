@@ -1143,3 +1143,22 @@
 .added_to_cart{
     display: none !important;
 }
+
+
+
+.footer{
+    #woocommerce_products-3{
+        ul{
+            li{
+                .content{
+                    h5{
+                        font-size: 14px;
+                        a{
+                            color: #ddd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
