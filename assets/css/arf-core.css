@@ -3243,6 +3243,7 @@ nav > ul li > ul li:hover::after {
 .project__item .content .content-inner p {
   margin-bottom: 2px;
   width: 50%;
+  margin: auto;
 }
 .project__item:hover:after {
   transform: scale(1.1);
