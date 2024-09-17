@@ -21,7 +21,6 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 	<?php do_action( 'woocommerce_before_cart_table' ); ?>
-
 	<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
 		<thead>
 			<tr>
@@ -71,7 +70,6 @@ do_action( 'woocommerce_before_cart' ); ?>
 								);
 							?>
 						</td>
-
 						<td class="product-thumbnail">
 						<?php
 						$thumbnail = apply_filters( 'woocommerce_cart_item_thumbnail', $_product->get_image(), $cart_item, $cart_item_key );

@@ -15,7 +15,6 @@ nav{
                 width: 100%;
                 border-bottom: 1px solid rgba(242, 246, 249, 0.53);
             }
-
             a {
                 @include padding(15px 30px);
                 @extend %d-block, %text-600, %text-none, %text-uppercase;
@@ -626,14 +625,11 @@ nav{
                 }
             }
            .mini_shopping_cart_box{
-            position: absolute;
-            opacity: 0;
-            visibility: hidden;
-            top: 20px;
+            position: absolute;            
+            top: 60px;
+            right: 0;
             transition: 1s;
-            right:-50px;
-            z-index: 9999;
-            width: 350px;
+            width: 300px;
             height: auto;
             @extend %mt-20;
             background: #fff;
@@ -641,6 +637,36 @@ nav{
             -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.37);
             box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.37);
             padding: 20px 30px;
+            visibility: hidden;
+            opacity: 0 ;
+            z-index: 9999;
+            &.cartopen {                
+                @include breakpoint(max-sm){
+                    visibility: visible;
+                    opacity: 1;
+                    top: 40px;
+                    right: -60px;
+                }
+            }
+            
+            @include breakpoint(sm){
+                width: 350px;                
+                top: 30px;
+            }  
+            .cartclose{
+                margin-left: auto;
+                background: $theme;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                cursor: pointer;
+                @include margin-bottom(15px);
+                i{
+                    @extend %white-color;
+                }
+            }
+            
                 ul{
                     @extend %mp-0-im;                    
                     li{
@@ -684,9 +710,17 @@ nav{
                     justify-content: space-between;
                      a{
                         @extend %text-none, %white-color;
-                        padding: 10px 25px;
+                        padding: 10px 25px;                        
                         background: $theme;
-                     }
+                        @include breakpoint(sm){
+                            padding: 10px 15px;
+                        }
+                        @include breakpoint(max-sm){
+                            width: 100%;
+                            text-align: center;
+                            margin-bottom: 10px;
+                        }
+                    }
                   }
                 }
            }

@@ -531,16 +531,15 @@ $('.ellepsis').on('click', function (e) {
 		$('.overlayTwo').addClass('active');
 	}
 });
+	
 
 // cart 
 $('.carticon').on("click", function () {
-	$('.cart-details').addClass('cartopen');
+	$('.mini_shopping_cart_box').addClass('cartopen');
 });
-$('.close i').on("click", function () {
-	$('.cart-details').removeClass('cartopen');
-});       
-
-
+$('.cartclose i').on("click", function () {
+	$('.mini_shopping_cart_box').removeClass('cartopen');
+});
 
 });
 }(jQuery));

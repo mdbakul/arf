@@ -451,7 +451,7 @@ nav > ul li > ul li a, nav > ul li a, .newslatter__form form .mc4wp-form-fields 
 }
 
 .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order button, .woocommerce-shipping-fields h3 .woocommerce-form__label span, .woocommerce-shipping-fields h3, .checkout_coupon .form-row-last button, .woocommerce-form-coupon-toggle .woocommerce-info, .wc-block-cart__submit-container a, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity .wc-block-cart-item__remove-link, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-components-product-badge span, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-components-product-badge, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table thead tr th span, .woocommerce-notices-wrapper .woocommerce-message a, .comment-respond form p.form-submit input, .cartpage__body ul li .countadd .cart-plus-minus .qtybutton:hover, .cartdesk__header ul li.active a, .cartdesk__header ul li.active, .shopdetails__content .countadd form button, .shoppagenav .nav-tab .nav-link, .shoppagenav h6, .testmonial .thum, .accordion-item--itme2Serpage .accordion-button, .accordion-item .accordion-button, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .replaybtn a, .blogsingle__content .tagbutton-icon .tagicon ul li a i, .blogsingle__content .quode .text h6, .blogsingle__alltag .tagcloud a:hover,
-.blogsingle__alltag .alltaginner a:hover, .blog__inner .content .blogbtn a, .feedback__inner .top .thumb, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover i, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover, .team__inner--innerpage2 .text p, .team__inner--innerpage2 .text h6, .team__inner .thumb .allicon ul li a i, .team__inner .thumb .allicon .fixedicon i, .projectfilter__item .inneritem .upitem a:hover i, .projectfilter__header ul li.active, .project__item .content .content-inner h6 a, .project__item .content .content-inner p, .counter__content h6, .counter__content .maincounter span, .counter__content .maincounter h3, .footer__photo .allphoto .item .inneritem .upitem a i, .footer__about .text .allsocialicon ul li a i, .custom-btn, .banner__content p, .banner__content h3, .tpoffcanvas__social .social-icon a i, .tpoffcanvas__input form .p-relative button i, .tpoffcanvas__input form .p-relative input, .tpoffcanvas__close-btn button i, .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons a, .header__cart .carticon .mini_shopping_cart_box ul li .tp-mini-cart-del a, .header__cart .carticon > a span, .header__mobilebar button i, .header__topcontent .right ul li a i, .header__topcontent .left ul li .text a, nav > ul li > ul li:hover > a, nav > ul li > ul li::after, .search__input button i, .search__input input, .pagi .pagi-inner ul li span.current, .pagi .pagi-inner ul li:last-child span:hover i,
+.blogsingle__alltag .alltaginner a:hover, .blog__inner .content .blogbtn a, .feedback__inner .top .thumb, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover i, .teamprofile__personalcontent .data > ul li .allicon ul li a:hover, .team__inner--innerpage2 .text p, .team__inner--innerpage2 .text h6, .team__inner .thumb .allicon ul li a i, .team__inner .thumb .allicon .fixedicon i, .projectfilter__item .inneritem .upitem a:hover i, .projectfilter__header ul li.active, .project__item .content .content-inner h6 a, .project__item .content .content-inner p, .counter__content h6, .counter__content .maincounter span, .counter__content .maincounter h3, .footer__photo .allphoto .item .inneritem .upitem a i, .footer__about .text .allsocialicon ul li a i, .custom-btn, .banner__content p, .banner__content h3, .tpoffcanvas__social .social-icon a i, .tpoffcanvas__input form .p-relative button i, .tpoffcanvas__input form .p-relative input, .tpoffcanvas__close-btn button i, .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons a, .header__cart .carticon .mini_shopping_cart_box ul li .tp-mini-cart-del a, .header__cart .carticon .mini_shopping_cart_box .cartclose i, .header__cart .carticon > a span, .header__mobilebar button i, .header__topcontent .right ul li a i, .header__topcontent .left ul li .text a, nav > ul li > ul li:hover > a, nav > ul li > ul li::after, .search__input button i, .search__input input, .pagi .pagi-inner ul li span.current, .pagi .pagi-inner ul li:last-child span:hover i,
 .pagi .pagi-inner ul li:last-child a:hover i, .pagi .pagi-inner ul li:first-child span:hover i,
 .pagi .pagi-inner ul li:first-child a:hover i, .pagi .pagi-inner ul li span:hover,
 .pagi .pagi-inner ul li a:hover, .pageheader__content > ul li a, .pageheader__content h2, .newslatter .text h3, .newslatter__form form .mc4wp-form-fields button, .plybtn a i, .swiper-button-next:after,
@@ -2381,19 +2381,43 @@ nav > ul li > ul li:hover::after {
 }
 .header__cart .carticon .mini_shopping_cart_box {
   position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  top: 20px;
+  top: 60px;
+  right: 0;
   transition: 1s;
-  right: -50px;
-  z-index: 9999;
-  width: 350px;
+  width: 300px;
   height: auto;
   background: #fff;
   -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.37);
   -moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.37);
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.37);
   padding: 20px 30px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+}
+@media (max-width: 575px) {
+  .header__cart .carticon .mini_shopping_cart_box.cartopen {
+    visibility: visible;
+    opacity: 1;
+    top: 40px;
+    right: -60px;
+  }
+}
+@media (min-width: 576px) {
+  .header__cart .carticon .mini_shopping_cart_box {
+    width: 350px;
+    top: 30px;
+  }
+}
+.header__cart .carticon .mini_shopping_cart_box .cartclose {
+  margin-left: auto;
+  background: #73B611;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0.9375rem;
 }
 .header__cart .carticon .mini_shopping_cart_box ul li {
   gap: 20px;
@@ -2426,6 +2450,18 @@ nav > ul li > ul li:hover::after {
 .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons a {
   padding: 10px 25px;
   background: #73B611;
+}
+@media (min-width: 576px) {
+  .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons a {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 575px) {
+  .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 .header__cart .carticon:hover .mini_shopping_cart_box {
   opacity: 1;

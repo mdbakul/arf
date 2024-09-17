@@ -74,7 +74,7 @@
                                 <p><?php echo esc_html($header_top_phone); ?></p>                            
                             </div>
                         </li>
-                        <?php endif; ?> 
+                        <?php endif; ?>
 
                         <?php if(!empty($header_top_email)): ?> 
                         <li>
@@ -86,7 +86,6 @@
                             </div>
                         </li>
                         <?php endif; ?> 
-
                         <?php if(!empty($header_top_address_text)): ?> 
                             <li>
                                 <div class="icon">                                                       
@@ -132,7 +131,7 @@
                         <div class="header__cart">  
                              <?php if ( class_exists( 'WooCommerce' ) ) : ?>                          
                                 <div class="carticon">
-                                    <a href="<?php echo wc_get_cart_url(); ?>">
+                                    <a href="#0">
                                         <i class="fa-light fa-basket-shopping"></i>
                                         <span id="tp-cart-item" class="cart__count"><?php echo esc_html(WC()->cart->cart_contents_count); ?></span>
                                     </a>

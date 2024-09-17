@@ -172,10 +172,8 @@ if(!function_exists('tp_main_content')){
         ?>
         <div class="shoppage__inner ">
             <div class="shoppage__item">
-                <div class="thum">
-                    <a href="<?php the_permalink();?>">
-                        <?php the_post_thumbnail(); ?>
-                    </a>
+                <div class="thum">                    
+                    <?php the_post_thumbnail(); ?>                    
                     <div class="shoppagelink go-up">                        
                          <?php echo do_shortcode('[woosq]') ?>                       
                         <?php echo do_shortcode('[woosw]') ?>                                             

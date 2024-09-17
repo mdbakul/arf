@@ -597,8 +597,7 @@ animation-name: fadeInDown;
 .sideallheading{
     border-bottom: 1px solid #F2F6F9;
     @extend %mb-20, %pb-20;
-}
-
+   }
 .pagi{    
     @include margin-top(50px);   
    .pagi-inner{
@@ -617,8 +616,7 @@ animation-name: fadeInDown;
                     &:hover{                
                         @extend %white-color; 
                         @extend %bgtheme;
-                    }
-                        
+                    }                        
                 }
                 &:first-child{
                     span,
