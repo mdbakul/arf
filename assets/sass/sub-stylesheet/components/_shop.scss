@@ -1152,7 +1152,8 @@
                     h5{
                         font-size: 12px;
                         a{
-                            color: #70717B;
+                            color: #000;
+                            @extend %text-none;
                         }
                     }
                 }

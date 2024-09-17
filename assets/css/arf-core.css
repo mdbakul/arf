@@ -355,7 +355,7 @@ a h6 {
   font-weight: 400;
 }
 
-.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity .wc-block-cart-item__remove-link, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap a, .woocommerce-notices-wrapper .woocommerce-message a, .cartpage__body ul li .product .text h6 a, .cartdesk__header ul li a, .shopdetails__content .rating a, .shoppage__item .content a, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .replaybtn a, .blogsingle__author .author-content .text ul li a, .blogsingle__content .tagbutton-icon .tagbutton ul li a, .blogsingle__alltag .tagcloud a,
+.footer #woocommerce_products-3 ul li .content h5 a, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap .wc-block-cart-item__quantity .wc-block-cart-item__remove-link, .wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block table tbody tr td.wc-block-cart-item__product .wc-block-cart-item__wrap a, .woocommerce-notices-wrapper .woocommerce-message a, .cartpage__body ul li .product .text h6 a, .cartdesk__header ul li a, .shopdetails__content .rating a, .shoppage__item .content a, .blogsingle__comments .content > ul li .commentsarea .name-replaybtn .replaybtn a, .blogsingle__author .author-content .text ul li a, .blogsingle__content .tagbutton-icon .tagbutton ul li a, .blogsingle__alltag .tagcloud a,
 .blogsingle__alltag .alltaginner a, .blogsingle__popularpost .postitem > ul > li .content h6 a, .blog__inner .content .text ul li a, .blog__inner .content .text ul li i, .blog__inner .content .text h6 a, .team__inner .text h6 a, .project__item .content .content-inner h6 a, .servicesingle__sidebar .allheading ul li a, .service2__item .text h6 a, .service__inner .text a, .footer__link ul li a, .custom-btn, .tpoffcanvas__contact-info ul li a, .header__cart .carticon .mini_shopping_cart_box p.woocommerce-mini-cart__buttons a, .header__cart .carticon .mini_shopping_cart_box ul li .tp-mini-cart-del a, .header__cart .carticon .mini_shopping_cart_box ul li .tp-mini-cart-content h5 a, .header__topcontent .left ul li .text a, nav > ul li a, .pagi .pagi-inner ul li span,
 .pagi .pagi-inner ul li a, .pageheader__content > ul li a {
   text-decoration: none;
@@ -5463,7 +5463,7 @@ nav > ul li > ul li:hover::after {
   font-size: 12px;
 }
 .footer #woocommerce_products-3 ul li .content h5 a {
-  color: #70717B;
+  color: #000;
 }
 
 .contactus__inner {
