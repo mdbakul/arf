@@ -534,7 +534,7 @@ $('.ellepsis').on('click', function (e) {
 	
 
 // cart 
-$('.carticon').on("click", function () {
+$('.carticon a i').on("click", function () {
 	$('.mini_shopping_cart_box').addClass('cartopen');
 });
 $('.cartclose i').on("click", function () {
