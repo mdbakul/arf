@@ -2398,7 +2398,6 @@ nav > ul li > ul li:hover::after {
   .header__cart .carticon .mini_shopping_cart_box.cartopen {
     visibility: visible;
     opacity: 1;
-    top: 40px;
     right: -80px;
   }
 }

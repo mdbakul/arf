@@ -642,8 +642,7 @@ nav{
             &.cartopen {                
                 @include breakpoint(max-sm){
                     visibility: visible;
-                    opacity: 1;
-                    top: 40px;
+                    opacity: 1;                    
                     right: -80px;
                 }
             }
