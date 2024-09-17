@@ -5460,10 +5460,10 @@ nav > ul li > ul li:hover::after {
 }
 
 .footer #woocommerce_products-3 ul li .content h5 {
-  font-size: 14px;
+  font-size: 12px;
 }
 .footer #woocommerce_products-3 ul li .content h5 a {
-  color: #ddd;
+  color: #70717B;
 }
 
 .contactus__inner {
