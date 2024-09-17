@@ -2364,7 +2364,6 @@ nav > ul li > ul li:hover::after {
 .header__cart .carticon {
   position: relative;
   width: 30px;
-  height: 30px;
   z-index: 9999;
 }
 .header__cart .carticon > a span {
@@ -2400,7 +2399,7 @@ nav > ul li > ul li:hover::after {
     visibility: visible;
     opacity: 1;
     top: 40px;
-    right: -60px;
+    right: -80px;
   }
 }
 @media (min-width: 576px) {

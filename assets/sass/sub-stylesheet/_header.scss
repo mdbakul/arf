@@ -606,8 +606,7 @@ nav{
     &__cart{        
         .carticon{
             position: relative;
-            width: 30px;  
-            height: 30px; 
+            width: 30px;
             z-index: 9999;            
             >a{
                 span{
@@ -645,7 +644,7 @@ nav{
                     visibility: visible;
                     opacity: 1;
                     top: 40px;
-                    right: -60px;
+                    right: -80px;
                 }
             }
             
