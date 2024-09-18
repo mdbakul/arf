@@ -530,8 +530,7 @@ $('.ellepsis').on('click', function (e) {
 		element.slideDown(300, "swing");
 		$('.overlayTwo').addClass('active');
 	}
-});
-	
+});	
 
 // cart 
 $('.carticon a i').on("click", function () {

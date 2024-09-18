@@ -4817,6 +4817,9 @@ nav > ul li > ul li:hover::after {
   justify-content: flex-start;
   margin-bottom: 0.625rem;
 }
+.shoppage__item--productspage .thum::after {
+  background: none;
+}
 
 .shoppagenav {
   padding: 0.9375rem 1.25rem;

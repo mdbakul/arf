@@ -96,7 +96,14 @@
             @include margin-bottom(10px);
         }
     }
-   }
+    }
+    &--productspage{
+        .thum{
+            &::after{
+                background: none;
+            }
+        }
+    }
     }
 }
 
