@@ -285,12 +285,11 @@ var swiper = new Swiper(".feedback2__slider2", {
 // feedback garden
 var swiper = new Swiper(".feedback__slider", {
 	direction: "vertical",
-	slidesPerView: 1,
+	slidesPerView: 2,
 	paginationClickable: true,
 	spaceBetween: 0,
 	mousewheelControl: true,
-	loop: true,
-	height: 180,
+	loop: true,	
 	autoHeight: true,
 	speed: 700,
 	breakpoints: {
@@ -309,10 +308,7 @@ var swiper = new Swiper(".feedback__slider", {
 		0: {
 			height: 680,
 		}
-	},
-	autoplay: {
-		delay: 3000,
-	},
+	}	
 });
 
 // partner  here
@@ -475,37 +471,6 @@ var swiper2 = new Swiper(".productsdetails2", {
 	thumbs: {
 		swiper: swiper,
 	},
-});
-
-
-//contact form js
-$(function () {
-	var form = $('#contact-form');
-	var formMessages = $('.form-message');
-	$(form).submit(function (e) {
-		e.preventDefault();
-		var formData = $(form).serialize();
-		$.ajax({
-			type: 'POST',
-			url: $(form).attr('action'),
-			data: formData
-		})
-			.done(function (response) {
-				$(formMessages).removeClass('error');
-				$(formMessages).addClass('success');
-				$(formMessages).text(response);
-				$('#contact-form input, #contact-form textarea').val('');
-			})
-			.fail(function (data) {
-				$(formMessages).removeClass('success');
-				$(formMessages).addClass('error');
-				if (data.responseText !== '') {
-					$(formMessages).text(data.responseText);
-				} else {
-					$(formMessages).text('Oops! An error occured and your message could not be sent.');
-				}
-			});
-	});
 });
 
 //Header ellipsis gardening   
