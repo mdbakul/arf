@@ -787,7 +787,7 @@ animation-name: fadeInDown;
 
 .book{    
     @extend %m-0-im;
-    @include padding-bottom(100px);
+    @include padding(100px);
     &__form{
         @extend %text-center;
          span{

@@ -1870,11 +1870,11 @@ input, textarea, select {
   width: 5%;
 }
 .book {
-  padding-bottom: calc(1.75rem + 6vw);
+  padding: calc(1.75rem + 6vw);
 }
 @media (min-width: 1200px) {
   .book {
-    padding-bottom: 6.25rem;
+    padding: 6.25rem;
   }
 }
 .book__form span {
