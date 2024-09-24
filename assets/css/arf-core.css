@@ -1120,15 +1120,6 @@ input, textarea, select {
   max-width: 585px;
 }
 
-.padding-block {
-  padding-block: calc(1.875rem + 7.5vw);
-}
-@media (min-width: 1200px) {
-  .padding-block {
-    padding-block: 7.5rem;
-  }
-}
-
 .preloader {
   position: fixed;
   z-index: 9999999;
@@ -1868,14 +1859,6 @@ input, textarea, select {
 .search__input button {
   background: none;
   width: 5%;
-}
-.book {
-  padding: calc(1.75rem + 6vw);
-}
-@media (min-width: 1200px) {
-  .book {
-    padding: 6.25rem;
-  }
 }
 .book__form span {
   color: #73B611;

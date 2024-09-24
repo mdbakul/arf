@@ -30,11 +30,6 @@
     }
 }
 
-// all section padding here
-.padding-block {
- @include padding-block(120px);
-}
-
 // preload start here
 .preloader {
     @extend %left-0, %top-0, %w-100, %h-100, %bg-no-repeat;
@@ -786,8 +781,7 @@ animation-name: fadeInDown;
 }
 
 .book{    
-    @extend %m-0-im;
-    @include padding(100px);
+    @extend %m-0-im;    
     &__form{
         @extend %text-center;
          span{
