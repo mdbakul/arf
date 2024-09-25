@@ -36,6 +36,19 @@ function arf_widgets_init() {
     ] );
     endif;
 
+    /**
+     * blog sidebar
+     */
+    if(class_exists("TP_Core")) :
+        register_sidebar( [
+            'name'          => esc_html__( 'Services Sidebar', 'arf' ),
+            'id'            => 'service_sidebar',
+            'before_widget' => '<div id="%1$s" class="brouchore brouchoreneedhelp allheading %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h6>',
+            'after_title'   => '</h6>',
+        ] );
+    endif;
 
     $footer_widgets = get_theme_mod( 'footer_widget_number', 4 );
 
