@@ -1,4 +1,3 @@
-
 nav{
     >ul {
         @extend %flex,
@@ -602,11 +601,12 @@ nav{
             }
         }
     }
-
     &__cart{        
         .carticon{
             position: relative;
             width: 30px;
+            height: 30px;
+            margin: 0 auto;
             z-index: 9999;            
             >a{
                 span{
@@ -625,7 +625,7 @@ nav{
             }
            .mini_shopping_cart_box{
             position: absolute;            
-            top: 60px;
+            top: 30px;            
             right: 0;
             transition: 1s;
             width: 300px;
@@ -639,13 +639,9 @@ nav{
             visibility: hidden;
             opacity: 0 ;
             z-index: 9999;
-            &.cartopen {                
-                @include breakpoint(max-sm){
-                    visibility: visible;
-                    opacity: 1;                    
-                    right: -80px;
-                }
-            }
+            @include breakpoint(xl){
+                top: 100px; 
+            }            
             
             @include breakpoint(sm){
                 width: 350px;                
@@ -658,7 +654,7 @@ nav{
                 height: 30px;
                 line-height: 30px;
                 text-align: center;
-                cursor: pointer;
+                cursor: pointer;                
                 @include margin-bottom(15px);
                 i{
                     @extend %white-color;
@@ -721,14 +717,26 @@ nav{
                     }
                   }
                 }
+
+            @include breakpoint(max-xl){
+                &.cartopen {                
+                        visibility: visible;
+                        opacity: 1;                    
+                        right: -80px;
+                    }
+                }
            }
-           &:hover{
-            .mini_shopping_cart_box{
-                opacity: 1;
-                visibility: visible;
-                right: 0;
-            }
-           }
+           @include breakpoint(xl){
+                &:hover{
+                    .mini_shopping_cart_box{
+                        opacity: 1;
+                        visibility: visible;
+                        right: 0;
+                        top: 25px;
+                    }
+                }
+            } 
+
         }
     }
 }

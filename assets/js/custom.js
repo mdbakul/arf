@@ -11,8 +11,7 @@ function handlePreloader() {
 	handlePreloader();
 });
 
-$(document).ready(function () {
-	
+$(document).ready(function () {	
 // Sidebar Js
 $(".tp-menu-bar").on("click", function () {
 	$(".tpoffcanvas").addClass("opened");
@@ -498,7 +497,7 @@ $('.ellepsis').on('click', function (e) {
 });	
 
 // cart 
-$('.carticon a i').on("click", function () {
+$('.carticon a').on("click", function () {
 	$('.mini_shopping_cart_box').addClass('cartopen');
 });
 $('.cartclose i').on("click", function () {

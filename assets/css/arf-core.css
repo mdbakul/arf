@@ -2347,6 +2347,8 @@ nav > ul li > ul li:hover::after {
 .header__cart .carticon {
   position: relative;
   width: 30px;
+  height: 30px;
+  margin: 0 auto;
   z-index: 9999;
 }
 .header__cart .carticon > a span {
@@ -2363,7 +2365,7 @@ nav > ul li > ul li:hover::after {
 }
 .header__cart .carticon .mini_shopping_cart_box {
   position: absolute;
-  top: 60px;
+  top: 30px;
   right: 0;
   transition: 1s;
   width: 300px;
@@ -2377,11 +2379,9 @@ nav > ul li > ul li:hover::after {
   opacity: 0;
   z-index: 9999;
 }
-@media (max-width: 575px) {
-  .header__cart .carticon .mini_shopping_cart_box.cartopen {
-    visibility: visible;
-    opacity: 1;
-    right: -80px;
+@media (min-width: 1200px) {
+  .header__cart .carticon .mini_shopping_cart_box {
+    top: 100px;
   }
 }
 @media (min-width: 576px) {
@@ -2444,10 +2444,20 @@ nav > ul li > ul li:hover::after {
     margin-bottom: 10px;
   }
 }
-.header__cart .carticon:hover .mini_shopping_cart_box {
-  opacity: 1;
-  visibility: visible;
-  right: 0;
+@media (max-width: 1199px) {
+  .header__cart .carticon .mini_shopping_cart_box.cartopen {
+    visibility: visible;
+    opacity: 1;
+    right: -80px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__cart .carticon:hover .mini_shopping_cart_box {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    top: 25px;
+  }
 }
 
 .tpoffcanvas {
