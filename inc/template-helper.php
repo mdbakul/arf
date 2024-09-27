@@ -133,7 +133,7 @@ add_action( 'arf_language', 'arf_language_list' );
 
 // header logo
 function arf_header_logo() { ?>
-    <?php 
+<?php 
         $arf_logo_on = function_exists('tpmeta_field')? tpmeta_field('arf_en_secondary_logo') : '';
         $arf_logo = get_template_directory_uri() . '/assets/img/logo/logo.png';
         $arf_logo_white = get_template_directory_uri() . '/assets/img/logo/logo.png';
@@ -142,30 +142,30 @@ function arf_header_logo() { ?>
         $arf_secondary_logo = get_theme_mod( 'header_secondary_logo', $arf_logo_white );
       ?>
 
-    <?php if ( $arf_logo_on == 'on' ) : ?>
-    <a class="main-logo" href="<?php print esc_url( home_url( '/' ) );?>">
-        <img src="<?php print esc_url( $arf_secondary_logo );?>" alt="<?php print esc_attr__( 'logo', 'arf' );?>" />
-    </a>
-    <?php else : ?>
-    <a class="standard-logo" href="<?php print esc_url( home_url( '/' ) );?>">
-        <img src="<?php print esc_url( $arf_site_logo );?>" alt="<?php print esc_attr__( 'logo', 'arf' );?>" />
-    </a>
-    <?php endif; ?>
+<?php if ( $arf_logo_on == 'on' ) : ?>
+<a class="main-logo" href="<?php print esc_url( home_url( '/' ) );?>">
+    <img src="<?php print esc_url( $arf_secondary_logo );?>" alt="<?php print esc_attr__( 'logo', 'arf' );?>" />
+</a>
+<?php else : ?>
+<a class="standard-logo" href="<?php print esc_url( home_url( '/' ) );?>">
+    <img src="<?php print esc_url( $arf_site_logo );?>" alt="<?php print esc_attr__( 'logo', 'arf' );?>" />
+</a>
+<?php endif; ?>
 <?php
 }
 
 
 // header logo
 function arf_header_black_logo() { ?>
-    <?php 
+<?php 
         $arf_logo = get_template_directory_uri() . '/assets/img/logo/logo-black.png';
 
         $arf_black_logo = get_theme_mod( 'header_logo', $arf_logo );
     ?>
 
-    <a href="<?php print esc_url( home_url( '/' ) );?>">
-        <img src="<?php print esc_url( $arf_black_logo );?>" alt="<?php print esc_attr__( 'logo', 'arf' );?>" />
-    </a>
+<a href="<?php print esc_url( home_url( '/' ) );?>">
+    <img src="<?php print esc_url( $arf_black_logo );?>" alt="<?php print esc_attr__( 'logo', 'arf' );?>" />
+</a>
 <?php
 }
 
@@ -180,20 +180,24 @@ function arf_header_social_profiles() {
     $arf_topbar_linkedin_url = get_theme_mod( 'header_linkedin_link', __( '#', 'arf' ) );
     $arf_topbar_youtube_url = get_theme_mod( 'header_youtube_link', __( '#', 'arf' ) );
     ?>
-<?php if ( !empty( $arf_topbar_fb_url ) ): ?> 
- <li><a class="icon facebook" href="<?php print esc_url( $arf_topbar_fb_url );?>"><i class="fa-brands fa-facebook-f"></i></a></li>
+<?php if ( !empty( $arf_topbar_fb_url ) ): ?>
+<li><a class="icon facebook" href="<?php print esc_url( $arf_topbar_fb_url );?>"><i
+            class="fa-brands fa-facebook-f"></i></a></li>
 <?php endif;?>
 
 <?php if ( !empty( $arf_topbar_twitter_url ) ): ?>
-    <li><a class="icon twitter" href="<?php print esc_url( $arf_topbar_twitter_url );?>"><i class="fa-brands fa-twitter"></i></a></li>
+<li><a class="icon twitter" href="<?php print esc_url( $arf_topbar_twitter_url );?>"><i
+            class="fa-brands fa-twitter"></i></a></li>
 <?php endif;?>
 
 <?php if ( !empty( $arf_topbar_instagram_url ) ): ?>
-    <li><a class="icon youtube" href="<?php print esc_url( $arf_topbar_instagram_url );?>"><i class="fa-brands fa-instagram"></i></a></li>
+<li><a class="icon youtube" href="<?php print esc_url( $arf_topbar_instagram_url );?>"><i
+            class="fa-brands fa-instagram"></i></a></li>
 <?php endif;?>
 
 <?php if ( !empty( $arf_topbar_linkedin_url ) ): ?>
-    <li><a class="icon linkedin" href="<?php print esc_url( $arf_topbar_linkedin_url );?>"><i class="fab fa-linkedin"></i></a></li>
+<li><a class="icon linkedin" href="<?php print esc_url( $arf_topbar_linkedin_url );?>"><i
+            class="fab fa-linkedin"></i></a></li>
 <?php endif;?>
 
 <?php
@@ -225,8 +229,7 @@ function arf_header_side_info_social_profiles() {
 <?php endif;?>
 
 <?php if ( !empty( $arf_topbar_linkedin_url ) ): ?>
-<a class="icon linkedin" href="<?php echo esc_url( $arf_topbar_linkedin_url ) ?>"><i
-        class="fab fa-linkedin"></i></a>
+<a class="icon linkedin" href="<?php echo esc_url( $arf_topbar_linkedin_url ) ?>"><i class="fab fa-linkedin"></i></a>
 <?php endif;?>
 
 <?php if ( !empty( $arf_topbar_youtube_url ) ): ?>
@@ -321,12 +324,9 @@ add_action( 'arf_footer_style', 'arf_check_footer', 10 );
 
 function get_footer_style($style){
     if( $style == 'footer_2'  ) {
-        get_template_part( 'template-parts/footer/footer-2' );
-    }elseif ( $style == 'footer_3'  ) {
-        get_template_part( 'template-parts/footer/footer-3' );
-    }elseif ( $style == 'footer_4' ) {
-        get_template_part( 'template-parts/footer/footer-4' );
-    }else{
+        get_template_part( 'template-parts/footer/footer-1' );
+    }    
+    else{
         get_template_part( 'template-parts/footer/footer-1');
     }
 }
@@ -652,28 +652,28 @@ function arf_blog_social_share(){
 
     if(!empty($arf_singleblog_social)) : ?>
 
-    <div class="tagicon mt-md-0 mt-4 <?php echo esc_attr($end_class); ?>">        
-        <ul>
-            <li>Share : </li>
-            <li>
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo esc_url($post_url);?>"
+<div class="tagicon mt-md-0 mt-4 <?php echo esc_attr($end_class); ?>">
+    <ul>
+        <li>Share : </li>
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo esc_url($post_url);?>"
                 target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            </li>
+        </li>
 
-            <li>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo esc_url($post_url);?>" target="_blank"><i
-                class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/share?url=<?php echo esc_url($post_url);?>" target="_blank"><i
-                class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="http://pinterest.com/pin/create/button/?url=<?php echo esc_url($post_url);?>" target="_blank"><i
-                class="fa-brands fa-pinterest-p"></i></a>
-            </li> 
-        </ul>       
-    </div>
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo esc_url($post_url);?>" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/share?url=<?php echo esc_url($post_url);?>" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="http://pinterest.com/pin/create/button/?url=<?php echo esc_url($post_url);?>" target="_blank"><i
+                    class="fa-brands fa-pinterest-p"></i></a>
+        </li>
+    </ul>
+</div>
 
 <?php endif ; 
 
